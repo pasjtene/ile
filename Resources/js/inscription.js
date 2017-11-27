@@ -1,6 +1,4 @@
-/**
- * Created by tene on 27/11/2017.
- */
+//fonction qui désactive les messages d'erreur
 function deactivateTooltips(){
     var tooltips = document.querySelectorAll('.tooltip'),
         tooltipsLength = tooltips.length;
@@ -10,6 +8,7 @@ function deactivateTooltips(){
     }
 }
 
+//fonction qui identifie l'element sur lequel on travail
 function getTooltip(elements){
     while (elements = elements.nextSibling){
         if (elements.className ==='tooltip'){
@@ -18,26 +17,14 @@ function getTooltip(elements){
     }
     return false;
 }
-
+//objet qui intègre toutes les fonctions
 var check = {};
-
-check['sex'] = function(){
-    var sex = document.getElementsByName('sex'),
-        tooltipStyle = getTooltip(sex[1].parentNode).style;
-    if (sex[0].checked ||sex[1].checked){
-        tooltipStyle.display = 'none';
-        return true;
-    }else{
-        tooltipStyle.display = 'inline-block';
-        return false;
-    }
-};
-
+//fonction qui vérifie le nom
 check['lastName'] = function(id){
     var name = document.getElementById(id),
         tooltipStyle = getTooltip(name).style;
 
-    if (name.value.length >=2){
+    if (name.value.length >=2 && name.value.length <=20){
         name.className = 'correct';
         tooltipStyle.display = 'none';
         return true;
@@ -47,23 +34,30 @@ check['lastName'] = function(id){
         return false;
     }
 };
-
+//fonction qui vérifie le prénom
 check['firstName'] =  check['lastName'];
-
+//fonction qui vérifie l'email avec regex
 check['Email'] = function(){
     var name = document.getElementById('Email'),
         tooltipStyle = getTooltip(name).style;
 
-    if (name.value.length >=6){
+    var ck = function checkMail(name){
+        var reg = new RegExp('^[a-z0-9]+([_|\.|-]{1}[a-z0-9]+)*@[a-z0-9]+([_|\.|-]{1}[a-z0-9]+)*[\.]{1}[a-z]{2,6}$', 'i');
+        return(reg.test(name));
+    };
+    if (ck(name.value)){
         name.className = 'correct';
         tooltipStyle.display = 'none';
+        console.log('succès du regex!!!');
         return true;
     }else{
         name.className = 'incorrect';
         tooltipStyle.display = 'inline-block';
+        console.log('echec du regex!!!');
         return false;
     }
 };
+//fonction qui vérifie que les emails sont identiques
 check['Email2'] = function(){
     var Email = document.getElementById('Email'),
         Email2 = document.getElementById('Email2'),
@@ -78,7 +72,7 @@ check['Email2'] = function(){
         return false;
     }
 };
-
+// fonction qui vérifie l'age
 check['age'] = function(){
     var age = document.getElementById('age'),
         tooltipStyle = getTooltip(age).style,
@@ -94,7 +88,7 @@ check['age'] = function(){
         return false;
     }
 };
-
+//fonction qui vérifie le pseudo
 check['login'] = function(){
     var login = document.getElementById('login'),
         tooltipStyle = getTooltip(login).style;
@@ -109,10 +103,12 @@ check['login'] = function(){
         return false;
     }
 };
-
-check['pwd1'] = function(){
-    var pwd1 = document.getElementById('pwd1'),
-        tooltipStyle = getTooltip(pwd1).style;
+//fonction qui vérifie le mot de passe
+check['password'] = function(){
+    var pwd1, tooltipStyle;
+    pwd1 = document.getElementById('password');
+    console.log("The pwd1 is: ",pwd1);
+    tooltipStyle = getTooltip(pwd1).style;
     if (pwd1.value.length >= 6){
         pwd1.className = 'correct';
         tooltipStyle.display = 'none';
@@ -123,10 +119,10 @@ check['pwd1'] = function(){
         return false;
     }
 };
-
-check['pwd2'] = function(){
-    var pwd1 = document.getElementById('pwd1'),
-        pwd2 = document.getElementById('pwd2'),
+//fonction qui vérifie si les mots de passe sont identiques
+check['confirm-password'] = function(){
+    var pwd1 = document.getElementById('password'),
+        pwd2 = document.getElementById('confirm-password'),
         tooltipStyle = getTooltip(pwd2).style;
     if (pwd1.value == pwd2.value && pwd2.value != ''){
         pwd2.className = 'correct';
@@ -138,7 +134,7 @@ check['pwd2'] = function(){
         return false;
     }
 };
-
+//fonction qui vérifie la civilité
 check['civility'] = function(){
     var civility = document.getElementById('civility'),
         tooltipTyle = getTooltip(civility).style;
@@ -150,10 +146,9 @@ check['civility'] = function(){
         return false;
     }
 };
-
+//fonction qui vérifie qui regroupe toute les autres fonctions
 (function(){
-    var myForm = document.getElementById('myForm'),
-        inputs = document.querySelectorAll('input[type= text], input[type=password]'), inputLength = inputs.length;
+    var myForm = document.getElementById('myForm'), inputs = document.querySelectorAll('input[type= text], input[type=password]'), inputLength = inputs.length;
     for (var i= 0; i<inputLength; i++){
         inputs[i].addEventListener('keyup', function(e){
             check[e.target.id](e.target.id);
@@ -164,11 +159,16 @@ check['civility'] = function(){
         var result = true;
         for (var i in check){
             result = check[i](i) && result;
+            if(result){
+                document.getElementsByClassName('bouton_validation').style.display= 'inline_block';
+            }
         }
         if (result){
-            alert('le formulaire est bien rempli.');
+            alert('le formulaire est bien rempli vous serez contacter plus tard!.');
         }
-        e.preventDefault();
+        else {
+            e.preventDefault();
+        }
     });
 
     myForm.addEventListener('reset', function(){
@@ -180,119 +180,8 @@ check['civility'] = function(){
 })();
 deactivateTooltips();
 
-function surligne(champ, erreur)
+//fonction qui transforme l'input en majuscule
+function ChangeCase(elem)
 {
-    if(erreur)
-        champ.style.backgroundColor = "#fba";
-    else
-        champ.style.backgroundColor = "";
-}
-
-function verifPseudo(champ)
-
-{
-
-    if(champ.value.length < 2 || champ.value.length > 25)
-
-    {
-
-        surligne(champ, true);
-
-        return false;
-
-    }
-
-    else
-
-    {
-
-        surligne(champ, false);
-
-        return true;
-
-    }
-}
-
-function verifMail(champ)
-
-{
-
-    var regex = /^[a-zA-Z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/;
-
-    if(!regex.test(champ.value))
-
-    {
-
-        surligne(champ, true);
-
-        return false;
-
-    }
-
-    else
-
-    {
-
-        surligne(champ, false);
-
-        return true;
-
-    }
-
-}
-
-function verifAge(champ)
-
-{
-
-    var age = parseInt(champ.value);
-
-    if(isNaN(age) || age < 5 || age > 111)
-
-    {
-
-        surligne(champ, true);
-
-        return false;
-
-    }
-
-    else
-
-    {
-
-        surligne(champ, false);
-
-        return true;
-
-    }
-
-}
-
-function verifForm(f)
-
-{
-
-    var pseudoOk = verifPseudo(f.pseudo);
-
-    var mailOk = verifMail(f.email);
-
-    var ageOk = verifAge(f.age);
-
-
-
-    if(pseudoOk && mailOk && ageOk)
-
-        return true;
-
-    else
-
-    {
-
-        alert("Veuillez remplir correctement tous les champs");
-
-        return false;
-
-    }
-
+    elem.value = elem.value.toUpperCase();
 }
