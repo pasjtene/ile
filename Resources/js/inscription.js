@@ -146,6 +146,10 @@ check['civility'] = function(){
         return false;
     }
 };
+
+(function desactive_submit() {
+    document.getElementById("inscription_buton").disabled = true;
+})();
 //fonction qui vérifie qui regroupe toute les autres fonctions
 (function(){
     var myForm = document.getElementById('myForm'), inputs = document.querySelectorAll('input[type= text], input[type=password]'), inputLength = inputs.length;
@@ -154,23 +158,21 @@ check['civility'] = function(){
             check[e.target.id](e.target.id);
         });
     }
-
-    myForm.addEventListener('submit', function(e){
+    myForm.addEventListener('onblur', function(e){
         var result = true;
         for (var i in check){
             result = check[i](i) && result;
             if(result){
-                document.getElementsByClassName('bouton_validation').style.display= 'inline_block';
+                document.getElementById("inscription_buton").disabled = false;
             }
         }
-        if (result){
-            alert('le formulaire est bien rempli vous serez contacter plus tard!.');
-        }
-        else {
-            e.preventDefault();
+    });
+    myForm.addEventListener('submit', function(e){
+        var result = true;
+        for (var i in check){
+            result = check[i](i) && result;
         }
     });
-
     myForm.addEventListener('reset', function(){
         for (var i = 0; i< inputLength; i++){
             inputs[i].className = '';
@@ -178,6 +180,7 @@ check['civility'] = function(){
         deactivateTooltips();
     });
 })();
+
 deactivateTooltips();
 
 //fonction qui transforme l'input en majuscule
