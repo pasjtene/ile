@@ -155,6 +155,9 @@ check['civility'] = function(){
     var myForm = document.getElementById('myForm'), inputs = document.querySelectorAll('input[type= text], input[type=password]'), inputLength = inputs.length;
     for (var i= 0; i<inputLength; i++){
         inputs[i].addEventListener('keyup', function(e){
+            console.log(i+ " "+ e.target.id + " "+ typeof check[e.target.id]);
+           // console.log();
+            //console.log(check[e.target.id]);
             check[e.target.id](e.target.id);
         });
     }
