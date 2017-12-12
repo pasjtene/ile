@@ -146,7 +146,7 @@ check['civility'] = function(){
         return false;
     }
 };
-
+// fonction qui desactive le bouton submit
 (function desactive_submit() {
     document.getElementById("inscription_buton").disabled = true;
 })();
