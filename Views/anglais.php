@@ -10,7 +10,7 @@
 <body>
 <?php
 require '../navbar.html';
- ?>
+?>
 
 <div class="div2">
     <div class="text_div2">INSTITUT DE LANGUES EUROPEENES - ILE</div>
@@ -23,44 +23,44 @@ require '../navbar.html';
         <img  src="../Resources/img/etudiants.jpg" style="width: 100%">
         <div class="categorie">
             <div class="category-title">
-                <h3><a href="/ile/Views/anglais_old.html">COURS D'ANGLAIS POUR ADULTES</a></h3>
+                <h3><a href="/ile/Views/anglais_groupes.php">COURS D'ANGLAIS POUR ADULTES</a></h3>
             </div>
             Il s’agit ici de cours de langue généraux des niveaux A1-A2 pour adultes. Les objets et contenus d’apprentissages sont conçus d’après le Cadre européen commun de référence pour les langues (CECR).
         </div>
         <div class="categorie">
             <div class="category-title">
-                <h3><a href="/ile/Views/anglais_old.html">COURS D’ANGLAIS POUR ENFANTS ET JEUNES</a></h3>
+                <h3><a href="/ile/Views/anglais_groupes.php">COURS D’ANGLAIS POUR ENFANTS ET JEUNES</a></h3>
             </div>
             Ces cours d’adressent aux jeunes Lycéens ou tout apprenant âgé entre 13 et 18 ans. Les élèves disposant de connaissances préalables ou débutants peuvent s’inscrire.
         </div>
         <div class="categorie">
             <div class="category-title">
-                <h3><a href="/ile/Views/anglais_old.html">COURS DE PRÉPARATION AUX EXAMENS</a></h3>
+                <h3><a href="/ile/Views/anglais_groupes.php">COURS DE PRÉPARATION AUX EXAMENS</a></h3>
             </div>
 
             Ces cours préparent aux examens TOEFL et IELTS et permettent de connaître le format de l’examen.
         </div>
         <div class="categorie">
             <div class="category-title">
-                <h3><a href="/ile/Views/anglais_old.html">Cours aux particuliers</a></h3>
+                <h3><a href="/ile/Views/anglais_groupes.php">Cours aux particuliers</a></h3>
             </div>
             Cours basés sur des contenus particuliers, destinés à des groupes-cibles spéciaux ou pour l’exercice d’aptitudes uniques:
         </div>
         <h3>INFORMATIONS</h3>
         <div class="info-container">
-        <div class="information">
-            <div class="info-title"><h3><a href="dates.html">DATES ET TARIFS</a></h3></div>
-            Tous les cours de Yaoundé
-        </div>
-        <div class="information">
-            <div class="info-title"><h3><a href="#">CONTACT ET INSCRIPTION</a></h3></div>
-            Vous êtes intéressé(e) par nos cours de langue ou avez des questions ? Nous vous renseignons volontiers.
-        </div>
-        <div class="information">
-            <div class="info-title"><h3><a href="#">NOTRE CONCEPT D'APPRENTISSAGE</a></h3></div>
+            <div class="information">
+                <div class="info-title"><h3><a href="dates.php">DATES ET TARIFS</a></h3></div>
+                Tous les cours de Yaoundé
+            </div>
+            <div class="information">
+                <div class="info-title"><h3><a href="#">CONTACT ET INSCRIPTION</a></h3></div>
+                Vous êtes intéressé(e) par nos cours de langue ou avez des questions ? Nous vous renseignons volontiers.
+            </div>
+            <div class="information">
+                <div class="info-title"><h3><a href="#">NOTRE CONCEPT D'APPRENTISSAGE</a></h3></div>
 
-            Des progrès rapides dans votre apprentissage sont garantis par des enseignants hautement qualifiés, des méthodes d’enseignement modernes, un accompagnement et un soutien soutenu ainsi qu’un système de niveaux de cours reconnu mondialement.
-        </div>
+                Des progrès rapides dans votre apprentissage sont garantis par des enseignants hautement qualifiés, des méthodes d’enseignement modernes, un accompagnement et un soutien soutenu ainsi qu’un système de niveaux de cours reconnu mondialement.
+            </div>
         </div>
 
         <div>Accédez en un clic à l’<a href="Views/inscription.html">espace candidature</a></div>
