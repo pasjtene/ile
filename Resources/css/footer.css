@@ -1,0 +1,29 @@
+.footer_div4{
+    height: 180px;
+    background-color: #271549;
+}
+.footer_div3{
+    height: 50px;
+    background-color: #77649B;
+}
+.footer_div2{
+    height: 70px;
+    background-color: #EFEEF3;
+}
+.footer_div1{
+    height: 70px;
+    background-color: white;
+}
+.flex-container_footer {
+    display: flex;
+}
+
+.flex-container_footer>div {
+    margin: 10px;
+    padding:20px;
+    width: 440px;
+}
+
+.bas{
+    margin-bottom: 0;
+}

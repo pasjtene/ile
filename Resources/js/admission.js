@@ -66,7 +66,7 @@ check['lastName'] = function(id){
 };
 
 check['firstName'] =  check['lastName'];
-
+/*
 (function(){
     var myForm = document.getElementById('myForm'), inputs = document.querySelectorAll('input[type= text], input[type=password]'), inputLength = inputs.length;
     for (var i= 0; i<inputLength; i++){
@@ -93,5 +93,62 @@ check['firstName'] =  check['lastName'];
         deactivateTooltips();
     });
 })();
+*/
 deactivateTooltips();
 
+//add a class to an element from a list, on click
+(function(){
+    var tableheads = document.querySelectorAll('.dates-table th');
+    var menu = document.querySelectorAll('.dropbtn');
+    for(var i=0; i<tableheads.length; i++){
+        console.log(i);
+        addClass3(i, tableheads);
+
+        /*
+        tableheads[i].addEventListener('click', function(e){
+            e.preventDefault();
+            removeClass(tableheads);
+            addClass(this);
+        }, false);
+*/
+    }
+
+    for(var i=0; i<menu.length; i++){
+        console.log(i);
+        addClass4(i, menu);
+
+    }
+
+})();
+
+function addClass3(i, tbl){
+    tbl[i].addEventListener('click', function(e){
+        removeClass(tbl);
+        tbl[i].className = 'active';
+        console.log(i);
+    });
+    }
+
+function addClass4(i, tbl){
+    tbl[i].addEventListener('click', function(e){
+        removeClass2(tbl);
+        tbl[i].className = 'dropbtn green';
+        console.log(i);
+    });
+}
+
+function removeClass2(elmts) {
+    for(var i= 0; i<elmts.length; i++)
+        elmts[i].className = 'dropbtn';
+}
+
+//get an array of elements and remove a class
+function removeClass(elmts) {
+    for(var i= 0; i<elmts.length; i++)
+    elmts[i].className = '';
+}
+
+//get an element and add a class
+function addClass(elmt){
+    elmt.className = 'active';
+}
