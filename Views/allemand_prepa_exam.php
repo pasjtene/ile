@@ -129,6 +129,11 @@ require '../navbar.html';
         <span><a class="liens_footer3 marg" href="#ancre1"><strong>HAUT DE PAGE </strong></a></span>
     </div>
 </div>
+
+
+<?php
+require '../bande-magnetique.html';
+?>
 <?php
 require '../footer.html';
 ?>

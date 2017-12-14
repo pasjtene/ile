@@ -140,8 +140,14 @@ require '../navbar.html';
         </div>
     </div>
 </div>
+
+
 <?php
-echo "This is php";
+require '../bande-magnetique.html';
+?>
+
+<?php
+
 require '../footer.html';
 ?>
 

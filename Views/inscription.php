@@ -64,8 +64,10 @@ require '../navbar.html';
                 à celui d'origine</span>
                 <br /><br />
                 <span class="form_col"></span>
-                <input  id="inscription_buton" class="bouton" type="submit" value="M'inscrire">
-                <input class="bouton" type="reset" value="Réinitialiser le formulaire">
+                <input  id="inscription_buton" class="stButton" type="submit" value="M'inscrire">
+                <br>
+
+
             </form>
         </div>
     </div>
@@ -84,9 +86,13 @@ require '../navbar.html';
         <span class="tooltip">Un mot de passe  ne peut pas faire moins de six caractères</span>
         <br /><br />
         <span class="form_col"></span>
-        <input class="bouton" type="submit" value="Connexion">
+        <input class="stButton" type="submit" value="Connexion">
     </div>
 </div>
+
+<?php
+require '../bande-magnetique.html';
+?>
 
 
 <?php

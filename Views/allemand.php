@@ -78,6 +78,11 @@ require '../navbar.html';
         </div>
     </div>
 </div>
+
+<?php
+require 'bande-magnetique.html';
+?>
+
 <?php
 require '../footer.html';
 ?>

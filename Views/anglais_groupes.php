@@ -115,6 +115,10 @@ require '../navbar.html';
 </div>
 
 <?php
+require '../bande-magnetique.html';
+?>
+
+<?php
 require '../footer.html';
 ?>
 

@@ -67,7 +67,7 @@ require 'navbar.html';
             </div>
         </div>
 
-        <div>Accédez en un clic à l’<a href="/ile/Views/inscription.html">espace candidature</a></div>
+
     </div>
     <div class="flex2">
         <div class="hexagon">
@@ -83,6 +83,11 @@ require 'navbar.html';
         </div>
     </div>
 </div>
+
+
+<?php
+require 'bande-magnetique.html';
+?>
 
 <?php
 require 'footer.html';
