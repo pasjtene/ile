@@ -2,8 +2,10 @@
 <html>
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../Resources/css/anglais_old.css" />
+    <link rel="stylesheet" href="../Resources/css/footer.css" />
     <title>Admission</title>
 </head>
 <body>
@@ -111,53 +113,11 @@ require '../navbar.html';
         <span><a class="liens_footer3 marg" href="#ancre1"><strong>HAUT DE PAGE</strong></a></span>
     </div>
 </div>
-<footer>
-    <div class="couleur_text">
-        <span>© 2017 ILE-Institute</span>
-        <span class="espace_horizontal"><a class="liens_footer" href="">Mentions légales</a></span>
-        <span class="espace_horizontal trait"></span>
-        <span class="espace_horizontal"><a class="liens_footer" href="">protection des données personnelles</a></span>
-        <span class="espace_horizontal trait"></span>
-        <span class="espace_horizontal"><a class="liens_footer" href="">informations complémentaires</a></span>
-        <span class="espace_horizontal trait"></span>
-        <span class="espace_horizontal"><a class="liens_footer" href="">RSS</a></span>
-        <span class="espace_horizontal trait"></span>
-        <span class="espace_horizontal"><a class="liens_footer" href="">Réseaux Sociaux</a></span>
-        <span class="espace_horizontal trait"></span>
-        <span class="espace_horizontal"><a class="liens_footer" href="">Newsletter</a></span>
-    </div>
-    <hr>
-    <div class="flex-container2">
-        <div>
-            <h2>LANGUE ANGLAISE</h2>
-            <span><a class="liens_footer" href="">Cours d'anglais</a></span><br>
-            <span><a class="liens_footer" href="">Enseigner l'anglais</a></span><br>
-            <span><a class="liens_footer" href="">Examens d'anglais</a></span><br>
-            <span><a class="liens_footer" href="">Pratiquer l'anglais gratuitement</a></span><br>
-            <span><a class="liens_footer" href="">Notre engagement pour l'anglais</a></span><br>
-            <span><a class="liens_footer" href="">Pourquoi apprendre l'anglais</a></span><br>
-            <span><a class="liens_footer" href="">Magazin Talk</a></span>
-        </div>
-        <div>
-            <h2>CULTURE</h2>
-            <span><a class="liens_footer" href="">Magazines</a></span><br>
-            <span><a class="liens_footer" href="">Projets</a></span><br>
-            <span><a class="liens_footer" href="">Bibliothèques</a></span><br>
-        </div>
-        <div>
-            <h2><a class="liens_footer" href="">CALENDRIER</a></h2>
-        </div>
-        <div>
-            <h2>QUI SOMMES NOUS?</h2>
-            <span><a class="liens_footer" href="">Missions et objectifs</a></span><br>
-            <span><a class="liens_footer" href="">Contacts et horaires d'ouverture</a></span><br>
-            <span><a class="liens_footer" href="">Notre éauipe</a></span><br>
-            <span><a class="liens_footer" href="">Carrière</a></span><br>
-            <span><a class="liens_footer" href="">Partenaires</a></span><br>
-            <span><a class="liens_footer" href="">Partenaires et sponsores</a></span>
-        </div>
-    </div>
-</footer>
+
+<?php
+require '../footer.html';
+?>
+
 </body>
 <script src="../Resources/js/inscription.js"></script>
 </html>

@@ -2,9 +2,11 @@
 <html>
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../Resources/css/admission.css" />
     <link rel="stylesheet" href="../Resources/css/anglais.css" />
+    <link rel="stylesheet" href="../Resources/css/footer.css" />
     <title>Admission</title>
 </head>
 <body>
@@ -79,24 +81,11 @@ require '../navbar.html';
         </div>
     </div>
 </div>
-<footer>
-    <div class="footer_div1"></div>
-    <div class="footer_div2">
-        <div class="flex-container_footer">
-            <div><h3 class="bas">CANDIDATURE</h3>
-                Inscrivez-vous en ligne
-            </div>
-            <div><h3 class="bas">DOCUMENTATION</h3>
-                pour tout connaitre de BTC-SUP
-            </div>
-            <div><h3 class="bas">CONTACT</h3>
-                posez-nous vos questions!
-            </div>
-        </div>
-    </div>
-    <div class="footer_div3"></div>
-    <div class="footer_div4"></div>
-</footer>
+
+<?php
+require '../footer.html';
+?>
+
 </body>
 <script src="../Resources/js/admission.js"></script>
 </html>
