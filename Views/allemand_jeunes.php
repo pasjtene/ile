@@ -1,15 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="../Resources/css/allemand_jeunes.css" />
-    <link rel="stylesheet" href="../Resources/css/admission.css" />
-    <link rel="stylesheet" href="../Resources/css/anglais.css" />
-    <link rel="stylesheet" href="../Resources/css/main.css" />
-    <link rel="stylesheet" href="../Resources/css/footer.css" />
-    <link rel="stylesheet" href="../Resources/css/footer2.css" />
-    <title>Admission</title>
+    <?php require "../header.html" ?>
+    <title>Allemand pour jeunes</title>
 </head>
 <body id="ancre1">
 <?php

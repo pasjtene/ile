@@ -67,14 +67,14 @@ li.dropdown {
 }
 .div2{
     background-color: #77649B;
-    height: 150px;
+    height: 75px;
     margin-top: 0;
 }
 .text_div2{
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
-    padding-top: 1cm;
+    padding-top: 15px;
     color: white;
 }
 .text2_div2{

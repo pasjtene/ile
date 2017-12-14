@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="../Resources/css/admission.css" />
-    <link rel="stylesheet" href="../Resources/css/anglais.css" />
-    <title>Admission</title>
+    <?php require "../header.html" ?>
+    <title>Langue Italienne</title>
 </head>
 <body>
 <?php
@@ -62,7 +59,6 @@ require '../navbar.html';
             </div>
         </div>
 
-        <div>Accédez en un clic à l’<a href="Views/inscription.html">espace candidature</a></div>
     </div>
     <div class="flex2">
         <div class="hexagon">
