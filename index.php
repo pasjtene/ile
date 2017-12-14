@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="Resources/css/anglais.css" />
     <link rel="stylesheet" href="Resources/css/main.css" />
     <link rel="stylesheet" href="Resources/css/footer.css" />
-    <link rel="stylesheet" href="Resources/css/footer2.css" />
+
     <title>Admission</title>
 </head>
 <body>
@@ -67,7 +67,7 @@ require 'navbar.html';
             </div>
         </div>
 
-        <div>Accédez en un clic à l’<a href="Views/inscription.html">espace candidature</a></div>
+        <div>Accédez en un clic à l’<a href="/ile/Views/inscription.html">espace candidature</a></div>
     </div>
     <div class="flex2">
         <div class="hexagon">
