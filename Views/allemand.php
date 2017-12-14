@@ -78,24 +78,9 @@ require '../navbar.html';
         </div>
     </div>
 </div>
-<footer>
-    <div class="footer_div1"></div>
-    <div class="footer_div2">
-        <div class="flex-container_footer">
-            <div><h3 class="bas">CANDIDATURE</h3>
-                Inscrivez-vous en ligne
-            </div>
-            <div><h3 class="bas">DOCUMENTATION</h3>
-                pour tout connaitre de BTC-SUP
-            </div>
-            <div><h3 class="bas">CONTACT</h3>
-                posez-nous vos questions!
-            </div>
-        </div>
-    </div>
-    <div class="footer_div3"></div>
-    <div class="footer_div4"></div>
-</footer>
+<?php
+require '../footer.html';
+?>
 </body>
 <script src="../Resources/js/admission.js"></script>
 </html>

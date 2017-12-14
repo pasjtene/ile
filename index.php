@@ -87,7 +87,6 @@ require 'navbar.html';
 <?php
 require 'footer.html';
 ?>
-
 </body>
 <script src="Resources/js/admission.js"></script>
 </html>
