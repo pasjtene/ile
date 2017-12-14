@@ -293,6 +293,7 @@ footer{
 }
 .couleur_fond{
     background-color: #788287;
+    height: 293px;
 }
 .flex-container>div {
     background-color: white;
@@ -310,6 +311,9 @@ footer{
     padding-left: 200px;
     margin-left: 150px;
     color: white;
+}
+.hauteur_div{
+    height: 98px;
 }
 .justif_text{
     text-align: justify;
@@ -367,7 +371,7 @@ footer{
 }
 .dessous{
     clear: both;
-    margin-top: 68px;
+    margin-top: 30px;
 }
 .dessous2{
     margin-top: 28px;
@@ -384,8 +388,8 @@ footer{
 }
 .green_div3{
     width: 500px;
-    height: 210px;
     background-color: #f16e00;
+    margin-bottom: 0;
 }
 .green_div4{
     width: 300px;
@@ -402,6 +406,14 @@ footer{
     height: 335px;
 }
 .img_allem_jeunes{
-    height: 313px;
+    height: 293px;
+    width: 500px;
+}
+.espace_haut{
+    margin-top: 20px;
+}
+.couleur_div{
+    background-color: #F1F2F1;
+    margin-top: 0;
     width: 500px;
 }
