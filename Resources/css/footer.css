@@ -27,3 +27,27 @@
 .bas{
     margin-bottom: 0;
 }
+
+/**************************************/
+
+.footer {
+    background-color: #373737;
+}
+
+.footer-contain {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid red;
+}
+
+.footer-contain h2 {
+    color: orange;
+}
+.footer-contain-flex-item-column {
+    width: 20%;
+    border: 1px solid blue;
+    flex: 1 0 auto;
+}

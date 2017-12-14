@@ -1,0 +1,14 @@
+.page-title {
+    font-size: 137.5%;
+    color: #f16e00 !important;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 102.65%;
+    margin: 16px 22px 24px 0;
+    height: 130px;
+    /* max-width: 511px; */
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
