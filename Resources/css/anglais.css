@@ -29,7 +29,9 @@
 }
 
 .information {
-    background-color: #a0c814;
+   /* background-color: #ffbe00;*/
+    background-color: #f16e00 ;
+    /*background-color: #a0c814;*/
     display: table-cell;
     width: 32%;
     height: 250px;

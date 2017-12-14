@@ -2,9 +2,13 @@
 <html>
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8" />
     <link rel="stylesheet" href="Resources/css/admission.css" />
     <link rel="stylesheet" href="Resources/css/anglais.css" />
+    <link rel="stylesheet" href="Resources/css/main.css" />
+    <link rel="stylesheet" href="Resources/css/footer.css" />
+    <link rel="stylesheet" href="Resources/css/footer2.css" />
     <title>Admission</title>
 </head>
 <body>
@@ -16,7 +20,7 @@ require 'navbar.html';
     <div class="text_div2">INSTITUT DE LANGUES EUROPEENES - ILE</div>
     <div class="text2_div2"><a class="lien_div2" href="">ACCUEIL</a>><a class="lien_div2" href="">CANDIDATURE</a>> <span class="text_maj">CANDIDATURE A YAOUNDE</span></div>
 </div>
-<div class="page-title"><h1>DATES ET TARIFS</h1></div>
+<div class="page-title"><h1>Des formations de qualité pour un succès garanti</h1></div>
 
 <div class="flex-container4">
     <div class="flex1">
@@ -79,24 +83,11 @@ require 'navbar.html';
         </div>
     </div>
 </div>
-<footer>
-    <div class="footer_div1"></div>
-    <div class="footer_div2">
-        <div class="flex-container_footer">
-            <div><h3 class="bas">CANDIDATURE</h3>
-                Inscrivez-vous en ligne
-            </div>
-            <div><h3 class="bas">DOCUMENTATION</h3>
-                pour tout connaitre de BTC-SUP
-            </div>
-            <div><h3 class="bas">CONTACT</h3>
-                posez-nous vos questions!
-            </div>
-        </div>
-    </div>
-    <div class="footer_div3"></div>
-    <div class="footer_div4"></div>
-</footer>
+
+<?php
+require 'footer.html';
+?>
+
 </body>
 <script src="Resources/js/admission.js"></script>
 </html>

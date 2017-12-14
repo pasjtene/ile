@@ -1,15 +1,4 @@
-.page-title {
-    font-size: 237.5%;
-    color: #a0c814;
-    line-height: 102.65%;
-    margin: 16px 22px 24px 0;
-    height: 130px;
-    /* max-width: 511px; */
-    width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-align: center;
-}
+
 
 .dates-table {
     background-color: #f1f2f1;
@@ -17,7 +6,7 @@
 }
 
 .dates-table tbody.tb td.first {
-    border-left: 5px solid #a0c814;
+    border-left: 5px solid #f16e00;
     background-color: #f1f2f1;
     color: #5f676b;
 }
