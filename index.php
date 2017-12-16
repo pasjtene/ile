@@ -24,18 +24,46 @@ require 'navbar.html';
         <div class="left-nav-contain">
             <div class="titre_lef-nav">FORMATIONS ILE Cameroon</div>
             <hr>
-            <div class="sous-titre-lef-nav">Langue Anglaise</div>
-            <div class="sous-titre-contenu">
+            <div class="sous-titre-lef-nav" id="sous-titre-lef-nav-an"><h3>Anglais</h3></div>
+            <div class="sous-titre-contenu" id="sous-titre-anglais">
                 Il s’agit ici de cours de langue généraux des niveaux A1-A2 pour adultes. Les objets et contenus d’apprentissages sont conçus d’après le Cadre européen commun de référence pour les langues (CECR)
                 <a href="">POUR ADULTES</a> <br>
                 <a href="">POUR ENFANTS ET JEUNES</a><br>
                 <a href="">PRÉPARATION AUX EXAMENS</a><br>
                 <a href="">Cours aux particuliers</a>
             </div>
-            <div class="sous-titre-lef-nav"><a href="">Langue Allemande</a></div>
-            <div class="sous-titre-lef-nav"><a href="">Langue Italienne</a></div>
-            <div class="sous-titre-lef-nav"><a href="">Langue Espagnole</a></div>
-            <div class="sous-titre-lef-nav"><a href="">Langue Francaise</a></div>
+            <div class="sous-titre-lef-nav" id="sous-titre-lef-nav-al"><h3>Cours d'Allemand</h3></div>
+            <div class="sous-titre-contenu" id="left-nav-al-cont">
+                Il s’agit ici de cours de langue généraux des niveaux A1-A2 pour adultes. Les objets et contenus d’apprentissages sont conçus d’après le Cadre européen commun de référence pour les langues (CECR)
+                <a href="">POUR ADULTES</a> <br>
+                <a href="">POUR ENFANTS ET JEUNES</a><br>
+                <a href="">PRÉPARATION AUX EXAMENS</a><br>
+                <a href="">Cours aux particuliers</a>
+            </div>
+            <div class="sous-titre-lef-nav" id="sous-titre-lef-nav-it"><h3>Cours d'Italien</h3></div>
+            <div class="sous-titre-contenu" id="left-nav-it-cont">
+                Il s’agit ici de cours de langue généraux des niveaux A1-A2 pour adultes. Les objets et contenus d’apprentissages sont conçus d’après le Cadre européen commun de référence pour les langues (CECR)
+                <a href="">POUR ADULTES</a> <br>
+                <a href="">POUR ENFANTS ET JEUNES</a><br>
+                <a href="">PRÉPARATION AUX EXAMENS</a><br>
+                <a href="">Cours aux particuliers</a>
+            </div>
+            <div class="sous-titre-lef-nav" id="sous-titre-lef-nav-es"><h3>Cours d'Espagnole</h3></div>
+            <div class="sous-titre-contenu" id="left-nav-es-cont">
+                Il s’agit ici de cours de langue généraux des niveaux A1-A2 pour adultes. Les objets et contenus d’apprentissages sont conçus d’après le Cadre européen commun de référence pour les langues (CECR)
+                <a href="">POUR ADULTES</a> <br>
+                <a href="">POUR ENFANTS ET JEUNES</a><br>
+                <a href="">PRÉPARATION AUX EXAMENS</a><br>
+                <a href="">Cours aux particuliers</a>
+            </div>
+            <div class="sous-titre-lef-nav" id="sous-titre-lef-nav-fr"><h3>Cours de Francais</h3></div>
+            <div class="sous-titre-contenu" id="left-nav-fr-cont">
+                Il s’agit ici de cours de langue généraux des niveaux A1-A2 pour adultes. Les objets et contenus d’apprentissages sont conçus d’après le Cadre européen commun de référence pour les langues (CECR)
+                <a href="">POUR ADULTES</a> <br>
+                <a href="">POUR ENFANTS ET JEUNES</a><br>
+                <a href="">PRÉPARATION AUX EXAMENS</a><br>
+                <a href="">Cours aux particuliers</a>
+            </div>
 
             <hr>
         </div>
