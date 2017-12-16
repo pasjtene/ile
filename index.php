@@ -22,14 +22,21 @@ require 'navbar.html';
 
     <div class="left-nav">
         <div class="left-nav-contain">
-            <P class="titre_hexa">FORMATIONS ILE Cameroon</P>
+            <div class="titre_lef-nav">FORMATIONS ILE Cameroon</div>
             <hr>
-            <div class="hexag_text"><a href="">PANORAMA DES ÉTUDES</a></div>
-            <div class="hexag_text"><a href="">BACHELOR INFORMATIQUE BAC+3</a></div>
-            <div class="hexag_text"><a href="">INGÉNIERIE INFORMATIQUE BAC+5</a></div>
-            <div class="hexag_text"><a href="">LES TITRES ET DIPLOMES</a></div>
-            <div class="hexag_text"><a href="">LES OUTILS NUMÉRIQUES</a></div>
-            <div class="hexag_text"><a href="">LES SPÉCIALISATIONS</a></div>
+            <div class="sous-titre-lef-nav">Langue Anglaise</div>
+            <div class="sous-titre-contenu">
+                Il s’agit ici de cours de langue généraux des niveaux A1-A2 pour adultes. Les objets et contenus d’apprentissages sont conçus d’après le Cadre européen commun de référence pour les langues (CECR)
+                <a href="">POUR ADULTES</a> <br>
+                <a href="">POUR ENFANTS ET JEUNES</a><br>
+                <a href="">PRÉPARATION AUX EXAMENS</a><br>
+                <a href="">Cours aux particuliers</a>
+            </div>
+            <div class="sous-titre-lef-nav"><a href="">Langue Allemande</a></div>
+            <div class="sous-titre-lef-nav"><a href="">Langue Italienne</a></div>
+            <div class="sous-titre-lef-nav"><a href="">Langue Espagnole</a></div>
+            <div class="sous-titre-lef-nav"><a href="">Langue Francaise</a></div>
+
             <hr>
         </div>
     </div>

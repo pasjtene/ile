@@ -100,18 +100,41 @@
 .flex-contain {
     display: flex;
     margin-left: 5%;
+    margin-top: 10px;
 }
 
 .left-nav {
     margin-right: 1%;
+    background-color: white;
+    padding: 5px;
+    width: 15%;
 }
 
 .main-contain-middle {
     width: 70%;
-
+    background-color: white;
     padding: 25px;
 }
 
 .left-nav-contain {
     background-color: white;
+
+}
+
+.titre_lef-nav {
+
+    font-weight: bolder;
+}
+
+.sous-titre-lef-nav {
+    background-color: #c3c3c3;
+    padding-bottom: 9px;
+    color: #474d50;
+}
+
+.sous-titre-lef-nav:hover {
+    background-color: lightgrey;
+    padding-bottom: 9px;
+    cursor: pointer;
+
 }
