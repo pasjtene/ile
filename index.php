@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="Resources/css/admission.css" />
-    <link rel="stylesheet" href="Resources/css/anglais.css" />
-    <link rel="stylesheet" href="Resources/css/main.css" />
-    <link rel="stylesheet" href="Resources/css/footer.css" />
+    <?php require "header.html" ?>
+
 
     <title>Admission</title>
 </head>
 <body>
+
 <?php
 require 'navbar.html';
 ?>
@@ -20,9 +16,24 @@ require 'navbar.html';
     <div class="text_div2">INSTITUT DE LANGUES EUROPEENES - ILE</div>
     <div class="text2_div2"><a class="lien_div2" href="">ACCUEIL</a>><a class="lien_div2" href="">CANDIDATURE</a>> <span class="text_maj">CANDIDATURE A YAOUNDE</span></div>
 </div>
-<div class="page-title"><h1>Des formations de qualité pour un succès garanti</h1></div>
+
 
 <div class="flex-container4">
+
+    <div class="flex2">
+        <div class="hexagon">
+            <P class="titre_hexa">PROGRAMMES BTC-SUP</P>
+            <hr>
+            <div class="hexag_text"><a href="">PANORAMA DES ÉTUDES</a></div>
+            <div class="hexag_text"><a href="">BACHELOR INFORMATIQUE BAC+3</a></div>
+            <div class="hexag_text"><a href="">INGÉNIERIE INFORMATIQUE BAC+5</a></div>
+            <div class="hexag_text"><a href="">LES TITRES ET DIPLOMES</a></div>
+            <div class="hexag_text"><a href="">LES OUTILS NUMÉRIQUES</a></div>
+            <div class="hexag_text"><a href="">LES SPÉCIALISATIONS</a></div>
+            <hr>
+        </div>
+    </div>
+
     <div class="flex1">
         <img  src="Resources/img/etudiants.jpg" style="width: 100%">
         <div class="categorie">
