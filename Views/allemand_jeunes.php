@@ -36,11 +36,9 @@ require '../navbar.html';
         <div class="couleur_fond">
             <img class="float_img img_allem_jeunes"  src="../Resources/img/allemand-jeunes.jpg"><h1 class="pad">APRRENDRE L'ALLEMAND DE MANIERE LUDIQUE</h1>
             <div class="pad justif_text">Apprenez l’allemand auprès de professionnels : L'ILE-Institute
-                vous offre des cours intensifs et extensifs. Après une évaluation
-                individuelle, vous commencez le cours au niveau correspondant.
-                Si vous ne disposez d’aucune connaissance préalable, vous commencez
-                automatiquement au niveau A1.</div>
-            <button class="button text_button pad" style="vertical-align:middle"><span>DATES ET TARIFS </span></button>
+                vous offre des cours intensifs et extensifs.
+                <button class="button text_button pad" style="vertical-align:middle"><span>DATES ET TARIFS </span></button>
+            </div>
         </div>
         <div class="flex-container3 dessous">
             <div class="green_div3 espace_haut">
@@ -53,7 +51,7 @@ require '../navbar.html';
                     Niveau proposé: A1–B1
                     Max. 22 participants
                 </p>
-                <button class="button text_button pad" style="vertical-align:middle"><span>DATES ET TARIFS &raquo;</span></button>
+                <button class="button text_button pad" style="vertical-align:middle"><span>DATES ET TARIFS </span></button>
             </div>
             <div class="green_div4">
                 <h2>CONTACT</h2>
