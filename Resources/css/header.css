@@ -1,0 +1,44 @@
+.slogan {
+    align-self: flex-end;
+    display: block;
+
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 26px;
+    padding-top: 25px;
+    color: #e1dfe6;
+
+    padding-bottom: 2px!important;
+}
+
+.nav_bar{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2px;
+    align-items: center;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #251549;
+    padding-bottom: 25px;
+}
+
+.logo{
+
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.nav-and-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #251549;
+
+}

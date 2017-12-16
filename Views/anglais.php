@@ -60,7 +60,7 @@ require '../navbar.html';
             </div>
         </div>
 
-        <div>Accédez en un clic à l’<a href="Views/inscription.html">espace candidature</a></div>
+
     </div>
     <div class="flex2">
         <div class="hexagon">
