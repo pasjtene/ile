@@ -30,9 +30,37 @@
 }
 
 .logo{
+    display: flex;
+    flex-direction: column;
 
-    margin-top: 25px;
+}
+
+.logo-message {
+    text-transform: uppercase;
+    font-weight: 900;
+    /*font-style: italic;*/
+    font-size: 22px;
+    /*line-height: 26px;*/
+    color: #e1dfe6;
+
+    padding: 0;
+    margin: 0;
+
+}
+
+.logo-group {
+    display: flex;
     margin-right: 25px;
+    margin-top: 25px;
+
+}
+
+.eli {
+    color: white;
+    font-style: italic;
+    margin-top: 37px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .nav-and-logo {

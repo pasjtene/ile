@@ -96,3 +96,22 @@
 .fa-social:hover{
     font-size: 25px;
 }
+
+.flex-contain {
+    display: flex;
+    margin-left: 5%;
+}
+
+.left-nav {
+    margin-right: 1%;
+}
+
+.main-contain-middle {
+    width: 70%;
+
+    padding: 25px;
+}
+
+.left-nav-contain {
+    background-color: white;
+}

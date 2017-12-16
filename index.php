@@ -18,11 +18,11 @@ require 'navbar.html';
 </div>
 
 
-<div class="flex-container4">
+<div class="flex-contain">
 
-    <div class="flex2">
-        <div class="hexagon">
-            <P class="titre_hexa">PROGRAMMES BTC-SUP</P>
+    <div class="left-nav">
+        <div class="left-nav-contain">
+            <P class="titre_hexa">FORMATIONS ILE Cameroon</P>
             <hr>
             <div class="hexag_text"><a href="">PANORAMA DES ÉTUDES</a></div>
             <div class="hexag_text"><a href="">BACHELOR INFORMATIQUE BAC+3</a></div>
@@ -34,7 +34,7 @@ require 'navbar.html';
         </div>
     </div>
 
-    <div class="flex1">
+    <div class="main-contain-middle">
         <img  src="Resources/img/etudiants.jpg" style="width: 100%">
         <div class="categorie">
             <div class="category-title">
@@ -80,19 +80,7 @@ require 'navbar.html';
 
 
     </div>
-    <div class="flex2">
-        <div class="hexagon">
-            <P class="titre_hexa">PROGRAMMES BTC-SUP</P>
-            <hr>
-            <div class="hexag_text"><a href="">PANORAMA DES ÉTUDES</a></div>
-            <div class="hexag_text"><a href="">BACHELOR INFORMATIQUE BAC+3</a></div>
-            <div class="hexag_text"><a href="">INGÉNIERIE INFORMATIQUE BAC+5</a></div>
-            <div class="hexag_text"><a href="">LES TITRES ET DIPLOMES</a></div>
-            <div class="hexag_text"><a href="">LES OUTILS NUMÉRIQUES</a></div>
-            <div class="hexag_text"><a href="">LES SPÉCIALISATIONS</a></div>
-            <hr>
-        </div>
-    </div>
+
 </div>
 
 
