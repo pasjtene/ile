@@ -147,4 +147,38 @@
 
 .sous-titre-contenu {
     display: none;
+    margin-top: 10px;
+
+}
+.sous-titre-contenu a {
+    display: block;
+    text-decoration: none !important;
+    color: #4B4B4B;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    width: 100%;
+    padding: 5px;
+}
+
+.left-nav-links {
+    border-top: 1px solid lightgrey;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.arrow-right {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+
+    border-left: 10px solid green;
+    margin-right: 5px;
+}
+
+.sous-titre-contenu a:hover {
+    color: #474d50;
+    font-weight: bold;
+    border-left: 3px solid #f16e00;
 }
