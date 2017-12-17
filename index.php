@@ -130,14 +130,14 @@ require 'navbar.html';
 
                 var jssor_1_options = {
                     $AutoPlay: 1,
-                    $Idle: 2000,
+                    $Idle: 6000,
                     $Cols: 1,
                     $Align: 0,
                     $CaptionSliderOptions: {
                         $Class: $JssorCaptionSlideo$,
                         $Transitions: jssor_1_SlideoTransitions,
                         $Breaks: [
-                            [{d:2000,b:1000}]
+                            [{d:10000,b:10000}]
                         ]
                     },
                     $ArrowNavigatorOptions: {
@@ -165,7 +165,7 @@ require 'navbar.html';
                         jssor_1_slider.$ScaleWidth(expectedWidth);
                     }
                     else {
-                        window.setTimeout(ScaleSlider, 30);
+                        window.setTimeout(ScaleSlider, 60);
                     }
                 }
 
@@ -182,7 +182,7 @@ require 'navbar.html';
             /* jssor slider loading skin spin css */
             .jssorl-009-spin img {
                 animation-name: jssorl-009-spin;
-                animation-duration: 1.6s;
+                animation-duration: 3.6s;
                 animation-iteration-count: infinite;
                 animation-timing-function: linear;
             }

@@ -167,3 +167,21 @@ h2 {
 body {
     margin: 0;
 }
+
+/*iPhone 6 in portrait*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+
+    .list-item {
+        /*width: 33.33%;*/
+        width: 99%;
+    }
+
+    .social-div-item {
+        width: 19%;
+
+    }
+
+}

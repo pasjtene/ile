@@ -182,3 +182,27 @@
     font-weight: bold;
     border-left: 3px solid #f16e00;
 }
+
+
+/*iPhone 6 in portrait*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+    .left-nav {
+        display:none;
+    }
+
+    .main-contain-middle {
+        width: 100%;
+        background-color: white;
+        padding: 2px;
+    }
+
+    .flex-contain {
+        display: flex;
+        margin-left: 1px;
+        margin-top: 2px;
+    }
+
+}
