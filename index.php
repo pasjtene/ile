@@ -130,7 +130,7 @@ require 'navbar.html';
 
                 var jssor_1_options = {
                     $AutoPlay: 1,
-                    $Idle: 6000,
+                    $Idle: 4000,
                     $Cols: 1,
                     $Align: 0,
                     $CaptionSliderOptions: {
