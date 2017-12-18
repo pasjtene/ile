@@ -54,14 +54,16 @@ and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation : portrait) {
     #jssor_1 {
-        width:100%;
+        width:90%;
         /*height:480px;*/
+        border: 2px solid green;
 
     }
 
     #slider-images{
-        cursor:default;position:relative;top:0px;left:0px;
-        width:100%;
+
+        width:90%;
+        border: 2px solid green;
 
     }
 
