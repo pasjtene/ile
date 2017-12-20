@@ -96,3 +96,137 @@
 .fa-social:hover{
     font-size: 25px;
 }
+
+.flex-contain {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.left-nav {
+    margin-right: 1%;
+    background-color: white;
+    padding: 5px;
+    width: 15%;
+}
+
+.main-contain-middle {
+    width: 70%;
+    background-color: white;
+    padding: 25px;
+}
+
+.left-nav-contain {
+    background-color: white;
+
+}
+
+.titre_lef-nav {
+
+    font-weight: bolder;
+}
+
+.sous-titre-lef-nav {
+    background-color: #c3c3c3;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    color: #474d50;
+    text-transform: uppercase;
+    padding-left: 10px;
+    border-left: 5px solid #f16e00;
+}
+
+.darkblue-border {
+    border-left: 5px solid #251549!important;
+}
+
+.sous-titre-lef-nav:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.sous-titre-contenu {
+    display: none;
+    margin-top: 10px;
+
+}
+.sous-titre-contenu a {
+    display: block;
+    text-decoration: none !important;
+    color: #4B4B4B;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    width: 100%;
+    padding: 5px;
+}
+
+.left-nav-links {
+    border-top: 1px solid lightgrey;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.arrow-right {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+
+    border-left: 10px solid green;
+    margin-right: 5px;
+}
+
+.sous-titre-contenu a:hover {
+    color: #474d50;
+    font-weight: bold;
+    border-left: 3px solid #f16e00;
+}
+
+
+/*iPhone 6 in portrait*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+    .left-nav {
+        display:none;
+    }
+
+    .main-contain-middle {
+        width: 100%;
+        background-color: white;
+        padding: 2px;
+    }
+
+    .flex-contain {
+        display: flex;
+        margin-left: 1px;
+        margin-top: 2px;
+    }
+
+}
+
+/*iPhone 5 & 5S in portrait*/
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+    .left-nav {
+        display:none;
+    }
+
+    .main-contain-middle {
+        width: 100%;
+        background-color: white;
+        padding: 2px;
+    }
+
+    .flex-contain {
+        display: flex;
+        margin-left: 1px;
+        margin-top: 2px;
+    }
+
+}
