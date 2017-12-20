@@ -283,7 +283,6 @@ footer{
 }
 .flex-container {
     display: flex;
-    width: 1100px;
     margin-left: 150px;
 }
 .couleur_fond{
@@ -367,22 +366,18 @@ footer{
     margin-top: 28px;
 }
 .green_div{
-    width: 250px;
     height: 210px;
     background-color: #f16e00;
 }
 .green_div2{
-    width: 250px;
     height: 210px;
     background-color: white;
 }
 .green_div3{
-    width: 500px;
     height: 220px;
     background-color: #f16e00;
 }
 .green_div4{
-    width: 300px;
     height: 210px;
 }
 .ligne_hori{
@@ -391,13 +386,9 @@ footer{
 .espace_h{
     margin-top: 200px;
 }
-.img_all_old{
-    width: 335px;
-    height: 335px;
-}
+
 .img_allem_jeunes{
     height: 200px;
-    width: 500px;
 }
 .espace_haut{
     margin-top: 20px;

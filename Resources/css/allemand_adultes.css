@@ -25,11 +25,7 @@ li a, .dropbtn {
     text-decoration: none;
     background-color: darkgrey;
 }
-.nav_bar{
-    padding-top: 2cm;
-    padding-left: 5cm;
-    padding-right: 3cm;
-}
+
 
 li a:hover, .dropdown:hover .dropbtn {
     background-color: yellowgreen;
@@ -168,42 +164,6 @@ input:focus{
 }
 #flip:hover, #flip1:hover, #flip2:hover{
     background-color: #FDCE37 ;
-}
-
-.hexagon {
-    position: relative;
-    width: 240px;
-    height: 173.21px;
-    background-color: white;
-    margin: 86.60px 0;
-}
-
-.hexagon:before,
-.hexagon:after {
-    content: "";
-    position: absolute;
-    width: 0;
-    border-left: 120px solid transparent;
-    border-right: 120px solid transparent;
-}
-
-.hexagon:before {
-    bottom: 100%;
-    border-bottom: 86.60px solid white;
-}
-
-.hexagon:after {
-    top: 100%;
-    width: 0;
-    border-top: 86.60px solid white;
-}
-.hexag_text{
-    text-decoration: none;
-    font-size: 0.8em;
-    text-align: center;
-}
-.titre_hexa{
-    text-align: center;
 }
 .footer_div4{
     height: 180px;

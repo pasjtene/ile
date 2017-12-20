@@ -20,7 +20,7 @@ require '../navbar.html';
         <div class="candidature">
             <h2>Création de Compte</h2>
             <h3>Votre Compte</h3>
-            <form id="myForm">
+            <form id="myForm" method="post">
                 <label class="form_col" for="civility">Civilité :</label>
                 <select name="civility" id="civility">
                     <option value="none"> Selectionner votre Civilité</option>

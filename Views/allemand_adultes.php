@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../Resources/css/anglais.css" />
     <link rel="stylesheet" href="../Resources/css/main.css" />
     <link rel="stylesheet" href="../Resources/css/footer.css" />
+    <link rel="stylesheet" href="../Resources/css/header.css" />
     <link rel="stylesheet" href="../Resources/css/footer2.css" />
     <title>Admission</title>
 </head>
@@ -16,7 +17,6 @@
 <?php
 require '../navbar.html';
 ?>
-
 <div class="div2">
     <div class="text_div2">COURS D'ALLEMAND POUR ADULTES</div>
     <div class="text2_div2"><a class="lien_div2" href="">ACCUEIL</a>><a class="lien_div2" href="">CANDIDATURE</a>> <span class="text_maj">CANDIDATURE A YAOUNDE</span></div>

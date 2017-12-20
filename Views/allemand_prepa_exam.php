@@ -5,7 +5,7 @@
     <?php require "../header.html" ?>
     <title>Admission</title>
 </head>
-<body>
+<body id="ancre1">
 <?php
 require '../navbar.html';
 ?>

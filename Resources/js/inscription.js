@@ -10,17 +10,17 @@ function deactivateTooltips(){
 
 //fonction qui identifie l'element sur lequel on travail
 function getTooltip(elements){
-    while (elements = elements.nextSibling){
-        if (elements.className ==='tooltip'){
+    while ( elements = ( elements!=null ? elements.nextSibling : null) ){
+        if ( elements!=null && elements.className ==='tooltip' ){
             return elements;
         }
     }
     return false;
 }
 //objet qui intègre toutes les fonctions
-var check = {};
+var check = [];
 //fonction qui vérifie le nom
-check['lastName'] = function(id){
+function cheklastNameAndfirstName(id){
     var name = document.getElementById(id),
         tooltipStyle = getTooltip(name).style;
 
@@ -33,11 +33,11 @@ check['lastName'] = function(id){
         tooltipStyle.display = 'inline-block';
         return false;
     }
-};
+}
 //fonction qui vérifie le prénom
 check['firstName'] =  check['lastName'];
 //fonction qui vérifie l'email avec regex
-check['Email'] = function(){
+ function checkEmail(){
     var name = document.getElementById('Email'),
         tooltipStyle = getTooltip(name).style;
 
@@ -56,9 +56,9 @@ check['Email'] = function(){
         console.log('echec du regex!!!');
         return false;
     }
-};
+}
 //fonction qui vérifie que les emails sont identiques
-check['Email2'] = function(){
+ function compareEmail(){
     var Email = document.getElementById('Email'),
         Email2 = document.getElementById('Email2'),
         tooltipStyle = getTooltip(Email2).style;
@@ -71,9 +71,9 @@ check['Email2'] = function(){
         tooltipStyle.display = 'inline-block';
         return false;
     }
-};
+}
 // fonction qui vérifie l'age
-check['age'] = function(){
+ function checkAge(){
     var age = document.getElementById('age'),
         tooltipStyle = getTooltip(age).style,
         ageValue = parseInt(age.value);
@@ -87,9 +87,9 @@ check['age'] = function(){
         tooltipStyle.display = 'inline-block';
         return false;
     }
-};
+}
 //fonction qui vérifie le pseudo
-check['login'] = function(){
+function checkLogin(){
     var login = document.getElementById('login'),
         tooltipStyle = getTooltip(login).style;
 
@@ -102,9 +102,9 @@ check['login'] = function(){
         tooltipStyle.display = 'inline-block';
         return false;
     }
-};
+}
 //fonction qui vérifie le mot de passe
-check['password'] = function(){
+ function checkPassword(){
     var pwd1, tooltipStyle;
     pwd1 = document.getElementById('password');
     console.log("The pwd1 is: ",pwd1);
@@ -118,9 +118,9 @@ check['password'] = function(){
         tooltipStyle.display = 'inline-block';
         return false;
     }
-};
+}
 //fonction qui vérifie si les mots de passe sont identiques
-check['confirm-password'] = function(){
+function comparePassword(){
     var pwd1 = document.getElementById('password'),
         pwd2 = document.getElementById('confirm-password'),
         tooltipStyle = getTooltip(pwd2).style;
@@ -133,9 +133,9 @@ check['confirm-password'] = function(){
         tooltipStyle.display = 'inline-block';
         return false;
     }
-};
+}
 //fonction qui vérifie la civilité
-check['civility'] = function(){
+ function checkCivillity(){
     var civility = document.getElementById('civility'),
         tooltipTyle = getTooltip(civility).style;
     if (civility.options[civility.selectedIndex].value != 'none'){
@@ -145,44 +145,48 @@ check['civility'] = function(){
         tooltipTyle.display = 'inline-block';
         return false;
     }
-};
-// fonction qui desactive le bouton submit
-(function desactive_submit() {
-    document.getElementById("inscription_buton").disabled = true;
-})();
+}
 //fonction qui vérifie qui regroupe toute les autres fonctions
-(function(){
+function validator() {
     var myForm = document.getElementById('myForm'), inputs = document.querySelectorAll('input[type= text], input[type=password]'), inputLength = inputs.length;
-    for (var i= 0; i<inputLength; i++){
-        inputs[i].addEventListener('keyup', function(e){
-            console.log(i+ " "+ e.target.id + " "+ typeof check[e.target.id]);
-           // console.log();
-            //console.log(check[e.target.id]);
-            check[e.target.id](e.target.id);
-        });
+    if(checkAge() && checkCivillity() && comparePassword() && checkPassword()  && compareEmail()  && checkEmail()  && cheklastNameAndfirstName('') && cheklastNameAndfirstName('')  )
+    {
+        //&& checkCivillity() && comparePassword() && checkPassword()  && compareEmail()
+        document.getElementById("inscription_buton").style.display = 'block';
+         console.log('good info');
     }
-    myForm.addEventListener('onblur', function(e){
-        var result = true;
-        for (var i in check){
-            result = check[i](i) && result;
-            if(result){
-                document.getElementById("inscription_buton").disabled = false;
-            }
-        }
-    });
-    myForm.addEventListener('submit', function(e){
-        var result = true;
-        for (var i in check){
-            result = check[i](i) && result;
-        }
-    });
-    myForm.addEventListener('reset', function(){
-        for (var i = 0; i< inputLength; i++){
-            inputs[i].className = '';
-        }
-        deactivateTooltips();
-    });
-})();
+    else
+    {
+        console.log('bad info ');
+        document.getElementById("inscription_buton").style.display = 'none';
+    }
+}
+document.getElementById('lastName').addEventListener('keyup',function(e){
+    validator();
+});
+document.getElementById('firstName').addEventListener('keyup',function(e){
+    validator();
+});
+document.getElementById('age').addEventListener('keyup',function(e){
+    validator();
+});
+document.getElementById('Email').addEventListener('keyup',function(e){
+    validator();
+});
+document.getElementById('Email2').addEventListener('keyup',function(e){
+    validator();
+});
+document.getElementById('password').addEventListener('keyup',function(e){
+    validator();
+});
+document.getElementById('confirm-password').addEventListener('keyup',function(e){
+    validator();
+});
+document.getElementById('civility').addEventListener('change',function(e){
+    validator();
+    console.log('select  is going ');
+});
+
 
 deactivateTooltips();
 

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../Resources/css/anglais.css" />
     <link rel="stylesheet" href="../Resources/css/main.css" />
     <link rel="stylesheet" href="../Resources/css/footer.css" />
+    <link rel="stylesheet" href="../Resources/css/header.css" />
     <link rel="stylesheet" href="../Resources/css/footer2.css" />
     <title id="ancre1">Admission</title>
 </head>
