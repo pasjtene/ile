@@ -289,10 +289,14 @@ require 'navbar.html';
         </div>
         <div class="categorie">
             <div class="category-title">
-                <h3><a href="/ile/Views/anglais_groupes.php">COURS D’ANGLAIS POUR ENFANTS ET JEUNES</a></h3>
+                <h3><a href="/ile/Views/anglais_groupes.php">COURS D’ANGLAIS POUR TOUS</a></h3>
             </div>
-            Ces cours d’adressent aux jeunes Lycéens ou tout apprenant âgé entre 13 et 18 ans. Les élèves disposant de connaissances préalables ou débutants peuvent s’inscrire.
+            Le Cameroun étant un pays bilingue avec l’Anglais et le français comme principales langues officielle, la maitrise de l’anglais et du français reste un atout majeur pour tous.
+            Que vous soyez éleve, étudiant, chercheur d’emplois ou même travailleurs les différents cours d’Anglais que nous dispensons à l’Institut de Langue Européenne permettrons d’améliorer ou de perfectionner vos connaissances en anglais, vous donnant ainsi un atouts supplémentaire pour votre progrès professionnel ou académique.
+            <br/><a href="/ile/Views/anglais_groupes.php">plus d'informations sont disponible sur la page speciale du cours d'anglais</a>
         </div>
+
+
         <div class="categorie">
             <div class="category-title">
                 <h3><a href="/ile/Views/anglais_groupes.php">COURS DE PRÉPARATION AUX EXAMENS</a></h3>
