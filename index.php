@@ -4,7 +4,7 @@
     <?php require "header.html" ?>
 
 
-    <title>Admission</title>
+    <title>ILE - Institut de Langues Europeenes - Douala</title>
 </head>
 <body>
 
@@ -110,7 +110,7 @@ require 'navbar.html';
         <!-- #region Jssor Slider Begin -->
         <!-- Generator: Jssor Slider Maker -->
         <!-- Source: https://www.jssor.com -->
-        <script src="js/jssor.slider-26.7.0.min.js" type="text/javascript"></script>
+
         <script type="text/javascript">
             jssor_1_slider_init = function() {
 
@@ -152,7 +152,7 @@ require 'navbar.html';
 
                 /*#region responsive code begin*/
 
-                /*var MAX_WIDTH = 100%;*/
+                var MAX_WIDTH = 1280;
 
                 function ScaleSlider() {
                     var containerElement = jssor_1_slider.$Elmt.parentNode;
@@ -219,7 +219,7 @@ require 'navbar.html';
             </div>
             <div id="slider-images" data-u="slides" >
                 <div data-p="170.00">
-                    <img data-u="image" src="Resources/img/etudiants.jpg" style="width: 100%"/>
+                    <img id="imge" data-u="image" src="Resources/img/etudiants.jpg" style="width: 100%"/>
                     <div data-u="caption" data-t="0" style="position:absolute;top:320px;left:30px;width:700px;height:40px;background-color:rgba(255,188,5,0.8);font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;">Village: idéal pour étudier en toute sérénité</div>
                 </div>
 
@@ -277,11 +277,15 @@ require 'navbar.html';
         <!-- Arrow Navigator
         <img  src="Resources/img/etudiants.jpg" style="width: 100%">
         -->
+        <div class="cat-container">
         <div class="categorie">
             <div class="category-title">
-                <h3><a href="/ile/Views/anglais_groupes.php">COURS D'ANGLAIS POUR ADULTES</a></h3>
+                <h3><a href="/ile/Views/allemand_prepa_exam.php">COURS D'ALLEMAND POUR ETUDIER EN ALLEMAGNE</a></h3>
             </div>
-            Il s’agit ici de cours de langue généraux des niveaux A1-A2 pour adultes. Les objets et contenus d’apprentissages sont conçus d’après le Cadre européen commun de référence pour les langues (CECR).
+            L'Institut de Langues Européennes offres des cours de langue allemande aux jeunes souhaitant étudier en Allemagne.
+            Nous préparons les candidats aux examens de langue allemande Nécessaire pour obtenir un visa étudiant
+            ( Goethe-Zertifikat A1: Start Deutsch1, Goethe-Zertifikat B1, Goethe-Zertifikat B2, Test-DaF) offerts par l’Institut-Goethe à Yaoundé.<br/>
+            <a href="/ile/Views/allemand_prepa_exam.php">plus d'informations sont disponible sur la page speciale allemand</a>
         </div>
         <div class="categorie">
             <div class="category-title">
@@ -302,8 +306,9 @@ require 'navbar.html';
             </div>
             Cours basés sur des contenus particuliers, destinés à des groupes-cibles spéciaux ou pour l’exercice d’aptitudes uniques:
         </div>
-        <h3>INFORMATIONS</h3>
+    </div>
         <div class="info-container">
+            <h3>INFORMATIONS</h3>
             <div class="information">
                 <div class="info-title"><h3><a href="/ile/Views/dates.php">DATES ET TARIFS</a></h3></div>
                 Tous les cours de Yaoundé
