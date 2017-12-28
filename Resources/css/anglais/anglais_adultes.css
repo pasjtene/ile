@@ -1,0 +1,370 @@
+
+body{
+    background-color: #EFEEF3;
+}
+.div1{
+    background-color: #251549;
+    height: 150px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: darkgrey;
+}
+
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: yellowgreen;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.div2{
+    background-color: #77649B;
+    height: 150px;
+    margin-top: 0;
+}
+.text_div2{
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 1cm;
+    color: white;
+}
+.text2_div2{
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+}
+.lien_div2{
+    text-decoration: none;
+    color: white;
+}
+.text_maj{
+    color: blueviolet;
+}
+.candidature{
+    height: 600px;
+    margin-left: 70px;
+}
+.form_col{
+    display: inline-block;
+    margin-right: 15px;
+    padding: 3px 0px;
+    width: 200px;
+    min-height: 1px;
+    text-align: left;
+}
+input{
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    height: 39px;
+    width: 360px;
+}
+input:focus{
+    border-color: rgba(82, 168, 236, 0.75);
+    box-shadow: 0 0 18px rgba(82, 168, 236, 0.5);
+}
+.correct{
+    border-color: rgba(68, 191, 68, 0.75);
+}
+.correct:focus{
+    border-color: rgba(68, 191, 68, 0.75);
+    box-shadow: 0 0 8px rgba(68, 191, 68, 0.5);
+}
+.incorrect{
+    border-color: rgba(191, 68, 68, 0.75);
+    background-color: #FADCD9;
+}
+.incorrect:focus{
+    border-color: rgba(191, 68, 68, 0.75);
+    box-shadow: 0 0 8px rgba(191, 68, 68, 0.5);
+}
+.tooltip{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 2px 4px;
+    border-radius: 6px;
+    color: red;
+}
+.flex-container4 {
+    display: flex;
+    height: 1000px;
+}
+
+.flex-container4>div {
+    padding:20px;
+}
+.flex1{
+    margin-left: 100px;
+    width: 1000px;
+}
+.flex2{
+    margin-left: 5px;
+    margin-right: 70px;
+    width: 720px;
+}
+
+#panel1, #flip1, #panel, #flip, #panel2, #flip2 {
+    padding: 5px;
+    background-color: white;
+    border: solid 1px #c3c3c3;
+}
+
+#panel1, #panel, #panel2 {
+    padding: 50px;
+    display: none;
+}
+.marges{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.droite{
+    text-align: right;
+}
+#flip:hover, #flip1:hover, #flip2:hover{
+    background-color: #FDCE37 ;
+}
+.footer_div4{
+    height: 180px;
+    background-color: #271549;
+}
+.footer_div3{
+    height: 50px;
+    background-color: #77649B;
+}
+.footer_div2{
+    height: 70px;
+    background-color: #EFEEF3;
+}
+.footer_div1{
+    height: 70px;
+    background-color: white;
+}
+.flex-container_footer {
+    display: flex;
+}
+
+.flex-container_footer>div {
+    margin: 10px;
+    padding:20px;
+    width: 440px;
+}
+.bas{
+    margin-bottom: 0;
+}
+.bouton{
+    font-size: 15px;
+    background-color: forestgreen;
+}
+.flex-container2>div {
+    padding:7px;
+    width: 425px;
+    height: 230px;
+    color: white;
+}
+footer{
+    height: 250px;
+    background-color: #5F676B;
+    width: 100%;
+}
+.flex-container2 {
+    display: flex;
+
+}
+.couleur_text{
+    color: white;
+}
+.espace_horizontal{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.liens_footer:hover{
+    text-decoration: underline;
+}
+.liens_footer2:hover{
+    text-decoration: underline;
+}
+.liens_footer3:hover{
+    text-decoration: underline;
+}
+.liens_footer3{
+    text-decoration: none;
+    color: #5F676B;
+}
+.liens_footer{
+    text-decoration: none;
+    color: white;
+}
+.marg{
+    margin-left: 650px;
+}
+.liens_footer2{
+    text-decoration: none;
+    color: #788287;
+}
+.trait{
+    border-right: solid white 2px;
+}
+.flex-container {
+    display: flex;
+    width: 1100px;
+    margin-left: 150px;
+}
+.couleur_fond{
+    background-color: #788287;
+}
+.flex-container>div {
+    background-color: white;
+    margin: 10px;
+    padding:20px;
+}
+.border_top_and_bottom{
+    border-bottom: solid whitesmoke 1px;
+    border-top: solid whitesmoke 1px;
+}
+.float_img{
+    float: left;
+}
+.pad{
+    padding-left: 200px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 150px;
+    color: white;
+}
+.justif_text{
+    text-align: justify;
+}
+.button {
+    display: inline-block;
+    background-color: white;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 2px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+.button:hover  {
+    background-color: #474D50;
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+    background-color: #474D50;
+}
+.text_button{
+    color: #788287;
+}
+.flex-container3 {
+    display: flex;
+}
+.flex-container3>div {
+    margin: 1px;
+    padding:10px;
+}
+.dessous{
+    clear: both;
+    margin-top: 68px;
+}
+.dessous2{
+    margin-top: 28px;
+}
+.green_div{
+    width: 250px;
+    height: 270px;
+    background-color: #f16e00;
+}
+.green_div2{
+    width: 250px;
+    height: 210px;
+    background-color: white;
+}
+.green_div3{
+    width: 500px;
+    height: 210px;
+    background-color: #f16e00;
+}
+.green_div4{
+    width: 300px;
+    height: 210px;
+}
+.ligne_hori{
+    float: left;
+}
+.espace_h{
+    margin-top: 200px;
+}
+.img_all_old{
+    width: 335px;
+    height: 335px;
+}
+.img_allem_jeunes{
+    height: 313px;
+    width: 500px;
+}
