@@ -111,10 +111,14 @@
 }
 
 .main-contain-middle {
+    display: flex;
+    flex-direction: column;
     width: 70%;
     background-color: white;
     padding: 25px;
 }
+
+
 
 .left-nav-contain {
     background-color: white;
