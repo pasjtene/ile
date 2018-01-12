@@ -4,7 +4,7 @@
     <?php require "header.html" ?>
 
 
-    <title>ILE - Institut de Langues Europeenes - Douala</title>
+    <title>CTI - Churchill Training Institute - Douala</title>
 </head>
 <body>
 
@@ -13,7 +13,7 @@ require 'navbar.html';
 ?>
 
 <div class="div2">
-    <div class="text_div2">INSTITUT DE LANGUES EUROPEENES - ILE</div>
+    <div class="text_div2">Churchill Training Institute - CTI</div>
     <div class="text2_div2"><a class="lien_div2" href="">ACCUEIL</a>><a class="lien_div2" href="">CANDIDATURE</a>> <span class="text_maj">CANDIDATURE A YAOUNDE</span></div>
 </div>
 
@@ -220,16 +220,16 @@ require 'navbar.html';
             <div id="slider-images" data-u="slides" >
                 <div data-p="170.00">
                     <img id="imge" data-u="image" src="Resources/img/etudiants.jpg" style="width: 100%"/>
-                    <div data-u="caption" data-t="0" style="position:absolute;top:320px;left:30px;width:700px;height:40px;background-color:rgba(255,188,5,0.8);font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;">Village: idéal pour étudier en toute sérénité</div>
+                    <div data-u="caption" data-t="0" style="position:absolute;top:320px;left:30px;width:700px;height:40px;background-color:rgba(255,188,5,0.8);font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;">Bonamoussadi: idéal pour étudier en toute sérénité</div>
                 </div>
 
                 <div data-p="170.00">
                     <img data-u="image" src="Resources/img/assis.jpg" style="width: 100%"/>
-                    <div data-u="caption" data-t="2" style="position:absolute;top:30px;left:-505px;width:700px;height:40px;background-color:rgba(255,188,5,0.8);font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;">PK12: Convivialité et harmonie pour mieux se concentrer</div>
+                    <div data-u="caption" data-t="2" style="position:absolute;top:30px;left:-505px;width:700px;height:40px;background-color:rgba(255,188,5,0.8);font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;">Anglais: Convivialité et harmonie pour mieux se concentrer</div>
                 </div>
                 <div data-p="170.00">
                     <img data-u="image" src="Resources/img/assise.jpg"/>
-                    <div data-u="caption" data-t="3" style="position:absolute;top:30px;left:30px;width:500px;height:40px;background-color:rgba(255,188,5,0.8);font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;">Logpom: Une bibliothèque fournie et disponible</div>
+                    <div data-u="caption" data-t="3" style="position:absolute;top:30px;left:30px;width:500px;height:40px;background-color:rgba(255,188,5,0.8);font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;">Allemand: Une bibliothèque fournie et disponible</div>
                 </div>
                 <div data-p="170.00">
                     <img data-u="image" src="Resources/img/groupe.jpg" />
@@ -237,16 +237,16 @@ require 'navbar.html';
                 </div>
                 <div data-p="170.00">
                     <img data-u="image"  src="Resources/img/assisel.jpg" />
-                    <div data-u="caption" data-t="5" style="position:absolute;top:30px;left:600px;width:700px;height:40px;background-color:rgba(255,188,5,0.8);font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;">Bonanjo : Des espaces de détente pour mieux se concentrer</div>
+                    <div data-u="caption" data-t="5" style="position:absolute;top:30px;left:600px;width:700px;height:40px;background-color:rgba(255,188,5,0.8);font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;">Informatique : Des espaces de détente pour mieux se concentrer</div>
                 </div>
 
                 <div data-b="0" data-p="170.00">
                     <img data-u="image" src="Resources/img/regard.jpg" />
-                    <div data-u="caption" data-t="7" style="position:absolute;top:-50px;left:30px;width:500px;height:40px;background-color:rgba(255,188,5,0.8);font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;">Deido: A vous de jouer !!!</div>
+                    <div data-u="caption" data-t="7" style="position:absolute;top:-50px;left:30px;width:500px;height:40px;background-color:rgba(255,188,5,0.8);font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;">Infographie: A vous de jouer !!!</div>
                 </div>
                 <div data-p="170.00">
                     <img data-u="image" src="Resources/img/computerstudents.jpg" />
-                    <div data-u="caption" data-t="7" style="position:absolute;top:-50px;left:30px;width:700px;height:40px;background-color:rgba(255,188,5,0.8);font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;">Akwa : Des équipements adaptes pour une formation de qualité</div>
+                    <div data-u="caption" data-t="7" style="position:absolute;top:-50px;left:30px;width:700px;height:40px;background-color:rgba(255,188,5,0.8);font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;">Bureautique : Des équipements adaptes pour une formation de qualité</div>
                 </div>
 
             </div>
@@ -282,7 +282,7 @@ require 'navbar.html';
             <div class="category-title">
                 <h3><a href="/ile/Views/allemand_prepa_exam.php">COURS D'ALLEMAND POUR ETUDIER EN ALLEMAGNE</a></h3>
             </div>
-            L'Institut de Langues Européennes offres des cours de langue allemande aux jeunes souhaitant étudier en Allemagne.
+            Le Churchill Training Institute offres des cours de langue allemande aux jeunes souhaitant étudier en Allemagne.
             Nous préparons les candidats aux examens de langue allemande Nécessaire pour obtenir un visa étudiant
             ( Goethe-Zertifikat A1: Start Deutsch1, Goethe-Zertifikat B1, Goethe-Zertifikat B2, Test-DaF) offerts par l’Institut-Goethe à Yaoundé.<br/>
             <a href="/ile/Views/allemand_prepa_exam.php">plus d'informations sont disponible sur la page speciale allemand</a>
@@ -292,7 +292,7 @@ require 'navbar.html';
                 <h3><a href="/ile/Views/anglais_groupes.php">COURS D’ANGLAIS POUR TOUS</a></h3>
             </div>
             Le Cameroun étant un pays bilingue avec l’Anglais et le français comme principales langues officielle, la maitrise de l’anglais et du français reste un atout majeur pour tous.
-            Que vous soyez éleve, étudiant, chercheur d’emplois ou même travailleurs les différents cours d’Anglais que nous dispensons à l’Institut de Langue Européenne permettrons d’améliorer ou de perfectionner vos connaissances en anglais, vous donnant ainsi un atouts supplémentaire pour votre progrès professionnel ou académique.
+            Que vous soyez éleve, étudiant, chercheur d’emplois ou même travailleurs les différents cours d’Anglais que nous dispensons au Churchill Training Institute permettrons d’améliorer ou de perfectionner vos connaissances en anglais, vous donnant ainsi un atouts supplémentaire pour votre progrès professionnel ou académique.
             <br/><a href="/ile/Views/anglais_groupes.php">plus d'informations sont disponible sur la page speciale du cours d'anglais</a>
         </div>
 
@@ -302,7 +302,7 @@ require 'navbar.html';
                 <h3><a href="/ile/Views/anglais_groupes.php">COURS DE PRÉPARATION AUX EXAMENS</a></h3>
             </div>
 
-            Ces cours préparent aux examens TOEFL et IELTS et permettent de connaître le format de l’examen.
+            Ces cours préparent aux examens TOEFL, IELTS et TOEIC et permettent de connaître le format de l’examen.
         </div>
         <div class="categorie">
             <div class="category-title">
