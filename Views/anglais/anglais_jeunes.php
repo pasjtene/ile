@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <?php require "../header.html" ?>
+<head id="ancre1">
+    <?php require "../../header.html" ?>
     <title>Allemand pour jeunes</title>
 </head>
 <body id="ancre1">
 <?php
-require '../navbar.html';
+require '../../navbar.html';
 ?>
 
 <div class="div2">
-    <div class="text_div2">COURS D'ALLEMAND POUR JEUNES ET ENFANTS</div>
+    <div class="text_div2">COURS D'ANGLAIS POUR JEUNES ET ENFANTS</div>
     <div class="text2_div2"><a class="lien_div2" href="">ACCUEIL</a>><a class="lien_div2" href="">CANDIDATURE</a>> <span class="text_maj">CANDIDATURE A YAOUNDE</span></div>
 </div>
 <div class="flex-container">
     <div>
-        <div class="border_top_and_bottom"><h3>LANGUE ALLEMANDE</h3></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Allemand</a></div>
+        <div class="border_top_and_bottom"><h3>LANGUE ANGLAISE</h3></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Anglais</a></div>
         <div><a class="liens_footer2 border_top_and_bottom" href="">au Cameroun</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Allemand pour adultes</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Allemand pour enfants et jeunes</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Anglais pour adultes</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Anglais pour enfants et jeunes</a></div>
         <div><a class="liens_footer2 border_top_and_bottom" href="">Cours de préparation aux examens</a></div>
         <div><a class="liens_footer2 border_top_and_bottom" href="">Cours spécialisés</a></div>
         <div><a class="liens_footer2 border_top_and_bottom" href="">Dates et tarifs</a></div>
         <div><a class="liens_footer2 border_top_and_bottom" href="">Contacts et inscription</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">en Allemagne</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">apprendre l'allemand en ligne</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Examens d'Allemand</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Pratiquer l'allemand gratuitement</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Notre engagement pour l'allemand</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">pourquoi apprendre l'Allemand</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Magazin Sprache</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">en Angleterre</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">apprendre l'anglais en ligne</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Examens d'Anglais</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Enseigner l'Anglais</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Pratiquer l'anglais gratuitement</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Notre engagement pour l'anglais</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">pourquoi apprendre l'Anglais</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Magazin Talk</a></div>
     </div>
     <div>
         <div class="couleur_fond">
-            <img class="float_img img_allem_jeunes"  src="../Resources/img/allemand-jeunes.jpg"><h1 class="pad">APRRENDRE L'ALLEMAND DE MANIERE LUDIQUE</h1>
+            <img class="float_img img_allem_jeunes"  src="../../Resources/img/allemand-jeunes.jpg"><h1 class="pad">APRRENDRE L'ALLEMAND DE MANIERE LUDIQUE</h1>
             <div class="pad justif_text">Apprenez l’allemand auprès de professionnels : L'ILE-Institute
                 vous offre des cours intensifs et extensifs.
                 <button class="button text_button pad" style="vertical-align:middle"><span>DATES ET TARIFS </span></button>
@@ -78,7 +79,7 @@ require '../navbar.html';
             <div class="green_div2">
                 <h3><a class="liens_footer3" href="">APERCU NIVEAUX A1-C1</a></h3>
                 <p>
-                    Nos cours d’allemand sont conçus d’après le Cadre européen commun de référence pour les langues (CECR).
+                    Nos cours d’anglaiis sont conçus d’après le Cadre européen commun de référence pour les langues (CECR).
                 </p>
             </div>
         </div>
@@ -87,11 +88,11 @@ require '../navbar.html';
 </div>
 
 <?php
-require '../bande-magnetique.html';
+require '../../bande-magnetique.html';
 ?>
 <?php
-require '../footer.html';
+require '../../footer.html';
 ?>
 </body>
-<script src="../Resources/js/inscription.js"></script>
+<script src="../../Resources/js/inscription.js"></script>
 </html>

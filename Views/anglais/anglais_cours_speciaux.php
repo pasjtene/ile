@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../Resources/css/allemand_cours_speciaux.css" />
-    <link rel="stylesheet" href="../Resources/css/admission.css" />
-    <link rel="stylesheet" href="../Resources/css/anglais.css" />
-    <link rel="stylesheet" href="../Resources/css/main.css" />
-    <link rel="stylesheet" href="../Resources/css/footer.css" />
-    <link rel="stylesheet" href="../Resources/css/header.css" />
-    <link rel="stylesheet" href="../Resources/css/footer2.css" />
+    <link rel="stylesheet" href="../../Resources/css/allemand_cours_speciaux.css" />
+    <link rel="stylesheet" href="../../Resources/css/admission.css" />
+    <link rel="stylesheet" href="../../Resources/css/anglais.css" />
+    <link rel="stylesheet" href="../../Resources/css/main.css" />
+    <link rel="stylesheet" href="../../Resources/css/footer.css" />
+    <link rel="stylesheet" href="../../Resources/css/header.css" />
+    <link rel="stylesheet" href="../../Resources/css/footer2.css" />
     <title id="ancre1">Admission</title>
 </head>
-<body>
+<body id="ancre1">
 <?php
-require '../navbar.html';
+require '../../navbar.html';
 ?>
 
 <div class="div2">
@@ -24,26 +24,27 @@ require '../navbar.html';
 </div>
 <div class="flex-container">
     <div>
-        <div class="border_top_and_bottom"><h3>LANGUE ALLEMANDE</h3></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Allemand</a></div>
+        <div class="border_top_and_bottom"><h3>LANGUE ANGLAISE</h3></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Anglais</a></div>
         <div><a class="liens_footer2 border_top_and_bottom" href="">au Cameroun</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Allemand pour adultes</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Allemand pour enfants et jeunes</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Anglais pour adultes</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Anglais pour enfants et jeunes</a></div>
         <div><a class="liens_footer2 border_top_and_bottom" href="">Cours de préparation aux examens</a></div>
         <div><a class="liens_footer2 border_top_and_bottom" href="">Cours spécialisés</a></div>
         <div><a class="liens_footer2 border_top_and_bottom" href="">Dates et tarifs</a></div>
         <div><a class="liens_footer2 border_top_and_bottom" href="">Contacts et inscription</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">en Allemagne</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">apprendre l'allemand en ligne</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Examens d'Allemand</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Pratiquer l'allemand gratuitement</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Notre engagement pour l'allemand</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">pourquoi apprendre l'Allemand</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Magazin Sprache</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">en Angleterre</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">apprendre l'anglais en ligne</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Examens d'Anglais</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Enseigner l'Anglais</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Pratiquer l'anglais gratuitement</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Notre engagement pour l'anglais</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">pourquoi apprendre l'Anglais</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Magazin Talk</a></div>
     </div>
     <div>
         <div class="couleur_fond">
-            <img class="float_img img_allem_jeunes"  src="../Resources/img/allemand-jeunes.jpg"><h1 class="pad hauteur_div"> ORIENTÉS ET THÉMATIQUES</h1>
+            <img class="float_img img_allem_jeunes"  src="../../Resources/img/allemand-jeunes.jpg"><h1 class="pad hauteur_div"> ORIENTÉS ET THÉMATIQUES</h1>
             <div class="pad justif_text">
                 Nous vous proposons une riche palette de cours spécialisés sur les thèmes les plus variés.
             </div>
@@ -71,7 +72,7 @@ require '../navbar.html';
                 <h2>CONTACT</h2>
                 <h3>SECRETARAIT DES COURS</h3>
                 <span>Tel: +237 672106432| +237 656326389</span>
-                <span><a href="">Email: ile-cm@gmail.com</a></span>
+                <span><a href="">Email: cti-cm@gmail.com</a></span>
             </div>
         </div>
         <span><a class="liens_footer3 marg" href="#ancre1"><strong>HAUT DE PAGE </strong></a></span>
@@ -79,12 +80,12 @@ require '../navbar.html';
 </div>
 
 <?php
-require '../bande-magnetique.html';
+require '../../bande-magnetique.html';
 ?>
 
 <?php
-require '../footer.html';
+require '../../footer.html';
 ?>
 </body>
-<script src="../Resources/js/inscription.js"></script>
+<script src="../../Resources/js/inscription.js"></script>
 </html>

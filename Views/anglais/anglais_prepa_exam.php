@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head >
 
-    <?php require "../header.html" ?>
+    <?php require "../../header.html" ?>
     <title>Admission</title>
 </head>
 <body id="ancre1">
 <?php
-require '../navbar.html';
+require '../../navbar.html';
 ?>
 
 <div class="div2">
@@ -16,28 +16,29 @@ require '../navbar.html';
 </div>
 <div class="flex-container">
     <div>
-        <div class="border_top_and_bottom"><h3>LANGUE ALLEMANDE</h3></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Allemand</a></div>
+        <div class="border_top_and_bottom"><h3>LANGUE ANGLAISE</h3></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Anglais</a></div>
         <div><a class="liens_footer2 border_top_and_bottom" href="">au Cameroun</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Allemand pour adultes</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Allemand pour enfants et jeunes</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Anglais pour adultes</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Anglais pour enfants et jeunes</a></div>
         <div><a class="liens_footer2 border_top_and_bottom" href="">Cours de préparation aux examens</a></div>
         <div><a class="liens_footer2 border_top_and_bottom" href="">Cours spécialisés</a></div>
         <div><a class="liens_footer2 border_top_and_bottom" href="">Dates et tarifs</a></div>
         <div><a class="liens_footer2 border_top_and_bottom" href="">Contacts et inscription</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">en Allemagne</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">apprendre l'allemand en ligne</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Examens d'Allemand</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Pratiquer l'allemand gratuitement</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Notre engagement pour l'allemand</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">pourquoi apprendre l'Allemand</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Magazin Sprache</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">en Angleterre</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">apprendre l'anglais en ligne</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Examens d'Anglais</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Enseigner l'Anglais</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Pratiquer l'anglais gratuitement</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Notre engagement pour l'anglais</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">pourquoi apprendre l'Anglais</a></div>
+        <div><a class="liens_footer2 border_top_and_bottom" href="">Magazin Talk</a></div>
     </div>
     <div>
         <div class="couleur_fond">
-            <img class="float_img img_allem_jeunes"  src="../Resources/img/allemand-jeunes.jpg"><h1 class="pad"> CERTIFICAT ILE</h1>
+            <img class="float_img img_allem_jeunes"  src="../../Resources/img/allemand-jeunes.jpg"><h1 class="pad"> CERTIFICAT ILE</h1>
             <div class="pad justif_text">
-                Ces cours préparent de façon ciblée aux certificats du ILE-Institut, reconnus au niveau international.
+                Ces cours préparent de façon ciblée aux certificats du CTI-Institut, reconnus au niveau international.
                 Vous abordez les différents modules écrits et oraux de l’examen grâce à des exercices et vous êtes familiarisé(e)
                 aux techniques spécifiques d’examens.
             </div>
@@ -115,7 +116,7 @@ require '../navbar.html';
             <div class="green_div2">
                 <h3><a class="liens_footer3" href="">APERCU NIVEAUX A1-C1</a></h3>
                 <p>
-                    Nos cours d’allemand sont conçus d’après le Cadre européen commun de référence pour les langues (CECR).
+                    Nos cours d’anglais sont conçus d’après le Cadre européen commun de référence pour les langues (CECR).
                 </p>
             </div>
         </div>
@@ -125,11 +126,11 @@ require '../navbar.html';
 
 
 <?php
-require '../bande-magnetique.html';
+require '../../bande-magnetique.html';
 ?>
 <?php
-require '../footer.html';
+require '../../footer.html';
 ?>
 </body>
-<script src="../Resources/js/inscription.js"></script>
+<script src="../../Resources/js/inscription.js"></script>
 </html>

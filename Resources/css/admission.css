@@ -211,6 +211,9 @@ input:focus{
     font-size: 15px;
     background-color: forestgreen;
 }
+#inscription_buton{
+    display: none;
+}
 
 .stButton {
     -moz-box-shadow: 0px 1px 0px 0px #fff6af;
@@ -257,4 +260,6 @@ input:focus{
     display: block;
     margin-left: 215px;
 }
+
+
 
