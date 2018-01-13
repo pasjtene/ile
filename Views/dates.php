@@ -22,9 +22,13 @@ require '../navbar.html';
 <div class="flex-contain">
     <div class="flex1">
         <img  src="../Resources/img/etudiants.jpg" style="width: 100%">
+
+        <div class="datecours">
+            Prochaine rentrée : 12 Février 2018
+        </div>
         <table class="dates-table">
             <thead>
-            <tr><th>COURS</th><th>NIVEAU</th><th class="active">DATE</th><th>LIEU DU COURS</th><th>PRIX</th><th></th></tr>
+            <tr><th>COURS</th><th>NIVEAU</th><th class="active">DATE</th><th>Durée du cours.</th><th>PRIX</th></tr>
             </thead>
             <tbody class="tb">
             <tr><td class="first">Allemand: <br/>Préparation au Goethe-Zertifikat  </td>
@@ -34,14 +38,14 @@ require '../navbar.html';
                     <p>Lu - Ven:  14h00 - 16h30</p>
                     <p>Lu - Ven:  18h30 - 21h00</p>
                 </td>
-                <td> CTI-Douala, Bonamoussadi </td> <td> 125 000 FCFA </td> <td>Je m'inscris</td>
+                <td> 2 mois, plus sessions pratiques </td> <td> 125 000 FCFA </td>
             </tr>
             <tr><td class="first">
-                    COURS INTENSIF
-                    13 Semaines
+                    Anglais: <br>
+                    Formation Accélérée normale
                 </td>
                 <td>
-                    IELTS NIVEAU A1
+                    IELTS, TOEFL, TOEIC NIVEAU A1
                 </td>
                 <td>
                     12.02.2018 - 13.04.2018
@@ -50,30 +54,40 @@ require '../navbar.html';
                     <p>Lu - Ven:  18h30 - 21h00</p>
                 </td>
                 <td>
-                    CTI-Douala, Bonamoussadi
+                    10 semaines
                 </td>
                 <td>
-                    65 000 FCFA
+                    110 000 FCFA
                 </td>
-                <td>Je m'inscris</td>
+
             </tr>
-            <tr><td class="first">COURS INTENSIF 13 Semaines </td>
-                <td> IELTS NIVEAU A1 </td>
+            <tr>
+                <td class="first">
+                    Anglais: <br>
+                    Formation Accélérée Intensive
+                </td>
+                <td> IELTS, TOEFL, TOEIC NIVEAU A1-A2 </td>
                 <td> 11.09.2017 - 08.12.2017
                     <p>Lu 8h00 - 11h30</p>
                     <p>Mer 8h00 - 11h30</p>
                     <p>Ven 8h00 - 11h30</p>
                 </td>
-                <td> CTI-Douala, Bonamoussadi </td> <td> 65 000 FCFA </td> <td>Je m'inscris</td>
+                <td> 8 semaines </td> <td> 200 000 FCFA </td>
             </tr>
-            <tr><td class="first">COURS INTENSIF 13 Semaines </td>
-                <td> IELTS NIVEAU A1 </td>
-                <td> 11.09.2017 - 08.12.2017
-                    <p>Lu 8h00 - 11h30</p>
-                    <p>Mer 8h00 - 11h30</p>
-                    <p>Ven 8h00 - 11h30</p>
+            <tr><td class="first">INFORMATIQUE </td>
+                <td> Bureautique débutant <br>
+                    Initiation a l'informatique<Br>
+                    Traitement de texte avec le Logiciel Microsoft Word
                 </td>
-                <td> CTI-Douala, Bonamoussadi </td> <td> 65 000 FCFA </td> <td>Je m'inscris</td>
+                <td> 12.02.2018 - 23.03.2018 <br><br>
+                    Matin: <br>
+                    Lu - Ven:  8h00 - 10h30<br><br>
+                    Après midi: <br>
+                    Lu - Ven:  14h00 - 16h30 <br><br>
+                    Soir:
+                    Lu - Ven:  18h30 - 21h00
+                </td>
+                <td> 6 semaines </td> <td> 120 000 FCFA </td>
             </tr>
             </tbody>
         </table>
@@ -82,11 +96,25 @@ require '../navbar.html';
         <div class="info-container">
             <div class="information">
                 <div class="info-title"><h3><a href="#">DATES ET TARIFS</a></h3></div>
-                Tous les cours de Yaoundé
+                Tous les cours de Douala
+                <div class="datecours">
+                    Prochaine rentrée : 12 Février 2018
+                </div>
             </div>
             <div class="information">
                 <div class="info-title"><h3><a href="#">CONTACT ET INSCRIPTION</a></h3></div>
-                Vous êtes intéressé(e) par nos cours de langue ou avez des questions ? Nous vous renseignons volontiers.
+                Nous somme Situé à Bonamoussadi, En face du centre des impôts de Douala 5ieme<br>
+                Tel/WhatsApp : 678 91 46 12 / 675 12 64 34 / 691 50 25 62 <br>
+                Email : ctidouala@cti-cm.com<br>
+
+                <div class="titre">Horaires d'ouverture:</div>
+                <div class="sous-titre"> Cours:</div>
+
+                Du Lundi au Vendredi: 8h - 21h. <br>
+                Samedi: 9h -16h <br>
+                <div class="sous-titre">Renseignements et Inscriptions:</div>
+                Du Lundi au Vendredi: 8h - 18h30. <br>
+                Samedi: 9h -12h
             </div>
             <div class="information">
                 <div class="info-title"><h3><a href="#">NOTRE CONCEPT D'APPRENTISSAGE</a></h3></div>
