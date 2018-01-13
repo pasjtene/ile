@@ -13,6 +13,18 @@
 
 }
 
+.datecours {
+ font-weight: bolder;
+    font-size: large;
+    padding-bottom: 15px;
+}
+
+.annonce-inscription {
+    font-weight: bolder;
+    font-size: large;
+    padding-bottom: 20px;
+}
+
 .categorie:nth-of-type(even) {
     border-left: 2px solid white!important;
 

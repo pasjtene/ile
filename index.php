@@ -282,6 +282,14 @@ require 'navbar.html';
             <div class="category-title">
                 <h3><a href="/ile/Views/allemand_prepa_exam.php">COURS D'ALLEMAND POUR ETUDIER EN ALLEMAGNE</a></h3>
             </div>
+            <div class="datecours">
+                Prochaine rentrée : 12 Février 2018
+            </div>
+
+            <div class="annonce-inscription">
+                Les Inscriptions sont en cour. Il y a encore quelques places disponibles.
+            </div>
+
             Le Churchill Training Institute offres des cours de langue allemande aux jeunes souhaitant étudier en Allemagne.
             Nous préparons les candidats aux examens de langue allemande Nécessaire pour obtenir un visa étudiant
             ( Goethe-Zertifikat A1: Start Deutsch1, Goethe-Zertifikat B1, Goethe-Zertifikat B2, Test-DaF) offerts par l’Institut-Goethe à Yaoundé.<br/>

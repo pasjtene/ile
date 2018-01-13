@@ -5,6 +5,12 @@
     color: #5f676b;
 }
 
+.dates-table td {
+    background-color: #f1f2f1;
+    color: #5f676b;
+    border: 1px solid #f16e00;
+}
+
 .dates-table tbody.tb td.first {
     border-left: 5px solid #f16e00;
     background-color: #f1f2f1;
