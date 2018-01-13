@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="../Resources/css/admission.css" />
-    <link rel="stylesheet" href="../Resources/css/anglais.css" />
-    <link rel="stylesheet" href="../Resources/css/dates.css" />
-    <link rel="stylesheet" href="../Resources/css/main.css" />
-    <title>Admission</title>
+
+    <?php require "../header.html" ?>
+    <title>CTI - DATES ET TARIFS</title>
+
 </head>
 <body>
 <?php
@@ -124,21 +121,9 @@ require '../navbar.html';
             </div>
         </div>
 
-        <div>Accédez en un clic à l’<a href="Views/inscription.html">espace candidature</a></div>
+
     </div>
-    <div class="flex2">
-        <div class="hexagon">
-            <P class="titre_hexa">PROGRAMMES BTC-SUP</P>
-            <hr>
-            <div class="hexag_text"><a href="">PANORAMA DES ÉTUDES</a></div>
-            <div class="hexag_text"><a href="">BACHELOR INFORMATIQUE BAC+3</a></div>
-            <div class="hexag_text"><a href="">INGÉNIERIE INFORMATIQUE BAC+5</a></div>
-            <div class="hexag_text"><a href="">LES TITRES ET DIPLOMES</a></div>
-            <div class="hexag_text"><a href="">LES OUTILS NUMÉRIQUES</a></div>
-            <div class="hexag_text"><a href="">LES SPÉCIALISATIONS</a></div>
-            <hr>
-        </div>
-    </div>
+
 </div>
 
 
