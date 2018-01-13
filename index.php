@@ -323,11 +323,26 @@ require 'navbar.html';
             <h3>INFORMATIONS</h3>
             <div class="information">
                 <div class="info-title"><h3><a href="/ile/Views/dates.php">DATES ET TARIFS</a></h3></div>
-                Tous les cours de Yaoundé
+                Tous les cours de Douala
+                <div class="datecours">
+                    Prochaine rentrée : 12 Février 2018
+                </div>
             </div>
             <div class="information">
                 <div class="info-title"><h3><a href="#">CONTACT ET INSCRIPTION</a></h3></div>
-                Vous êtes intéressé(e) par nos cours de langue ou avez des questions ? Nous vous renseignons volontiers.
+                Nous somme Situé à Bonamoussadi, En face du centre des impôts de Douala 5ieme<br>
+                Tel/WhatsApp : 678 91 46 12 / 675 12 64 34 / 691 50 25 62 <br>
+                Email : ctidouala@cti-cm.com<br>
+
+                <div class="titre">Horaires d'ouverture:</div>
+                <div class="sous-titre"> Cours:</div>
+
+                Du Lundi au Vendredi: 8h - 21h. <br>
+                Samedi: 9h -16h <br>
+                <div class="sous-titre">Renseignements et Inscriptions:</div>
+                Du Lundi au Vendredi: 8h - 18h30. <br>
+                Samedi: 9h -12h
+
             </div>
             <div class="information">
                 <div class="info-title"><h3><a href="#">NOTRE CONCEPT D'APPRENTISSAGE</a></h3></div>

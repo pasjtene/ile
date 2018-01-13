@@ -19,6 +19,16 @@
     padding-bottom: 15px;
 }
 
+.titre {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.sous-titre {
+    font-weight: bold;
+    padding-top: 15px;
+}
+
 .annonce-inscription {
     font-weight: bolder;
     font-size: large;
