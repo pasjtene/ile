@@ -45,6 +45,18 @@
     border: 1px solid lightgray;
 }
 
+.information {
+    /* background-color: #ffbe00;*/
+    background-color: #f16e00 ;
+    /*background-color: #a0c814;*/
+    display: table-cell;
+
+    width: 32%;
+    /*height: 250px;*/
+    border: 1px solid white;
+    padding-left: 15px;
+}
+
 /*iPhone 6 in portrait*/
 @media only screen
 and (min-device-width : 375px)
