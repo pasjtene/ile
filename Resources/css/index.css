@@ -8,6 +8,8 @@ body {
     background-color: #fff;
     position: relative;
 }
+
+
 .cat-container {
 
     display: flex;
@@ -66,6 +68,7 @@ body {
     background-color: #f16e00 ;
     /*background-color: #a0c814;*/
     display: table-cell;
+    color: black;
 
     width: 33.3%;
     /*height: 250px;*/
@@ -117,7 +120,7 @@ and (orientation : portrait)
     .information {
         /* background-color: #ffbe00;*/
         background-color: #f16e00 ;
-        /*background-color: #a0c814;*/
+        color: black!important;
         display: table-cell;
         max-width: 100%;
         width: 100%!important;
@@ -145,6 +148,7 @@ and (orientation : portrait)
 and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation : portrait) {
+
     body {
         font-size: 16px;
     }
@@ -181,6 +185,7 @@ and (orientation : portrait) {
     .information {
         /* background-color: #ffbe00;*/
         background-color: #f16e00 ;
+        color: black!important;
         /*background-color: #a0c814;*/
         display: table-cell;
         max-width: 100%;
