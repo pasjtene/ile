@@ -69,6 +69,10 @@ and (orientation : portrait)
 
     }
 
+    .datecours {
+        font-size: 35px;
+    }
+
 }
 
 /*iPhone 5 & 5S in portrait*/
@@ -92,6 +96,10 @@ and (orientation : portrait) {
         color: #474d50;
         font-size: 60px;
 
+    }
+
+    .datecours {
+        font-size: 35px;
     }
 
     .category-desktop-contain {

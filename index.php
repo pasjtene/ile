@@ -302,15 +302,19 @@ require 'navbar.html';
             <div class="category-title">
                 <h3><a href="/ile/Views/anglais_groupes.php">COURS D’ANGLAIS POUR TOUS</a></h3>
             </div>
-            Nous dispensons des cours d’Anglais général pour tous les niveaux.<br>
-            No cours sont conçus d’après le Cadre Européen Commun de Référence pour les Langues (CECR).<br>
-            Après un test de niveau qui dure 30 minutes, l’apprenant peut être admis à un des niveaux du programme : A1, A2, B1, B2, C1, C2.<br>
             Tous nos cours permettent de préparer les candidats aux examens internationaux : <strong>TOEFL, IELTS, TOEIC</strong>.<br><br>
 
-            Que vous soyez élève, étudiant, chercheur d’emplois ou même travailleurs les différents cours d’Anglais que nous dispensons au
-            Churchill Training Institute permettrons d’améliorer ou de perfectionner vos connaissances en anglais,
-            vous donnant ainsi un atout supplémentaire pour votre progrès professionnel ou académique.
-            <br/><a href="/ile/Views/anglais_groupes.php">plus d'informations sont disponible sur la page speciale du cours d'anglais</a>
+            No cours sont conçus d’après le Cadre Européen Commun de Référence pour les Langues (CECR).<br>
+            <div class="category-desktop-contain">
+                Après un test de niveau qui dure 30 minutes, l’apprenant peut être admis à un des niveaux du programme : A1, A2, B1, B2, C1, C2.<br>
+                Nous dispensons des cours d’Anglais général pour tous les niveaux.<br>
+                Que vous soyez élève, étudiant, chercheur d’emplois ou même travailleurs les différents cours d’Anglais que nous dispensons au
+                Churchill Training Institute permettrons d’améliorer ou de perfectionner vos connaissances en anglais,
+                vous donnant ainsi un atout supplémentaire pour votre progrès professionnel ou académique.
+                <br/><a href="/ile/Views/anglais_groupes.php">plus d'informations sont disponible sur la page speciale du cours d'anglais</a>
+
+            </div>
+
         </div>
 
 
