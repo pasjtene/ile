@@ -172,7 +172,8 @@ body {
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px)
-and (orientation : portrait) {
+/*and (orientation : portrait) */
+{
 
     .list-item {
         /*width: 33.33%;*/
@@ -200,7 +201,8 @@ and (orientation : portrait) {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)
-and (orientation : portrait) {
+/*and (orientation : portrait) */
+{
     .list-item {
         /*width: 33.33%;*/
         width: 99%;
