@@ -181,8 +181,17 @@ and (orientation : portrait) {
 
     .social-div-item {
         width: 19%;
-
+        font-size: 35px!important;
     }
+
+    .ftitle {
+        font-size: 50px!important;
+    }
+    .fcontent {
+        display:none;
+        font-size: 35px!important;
+    }
+
 
 }
 

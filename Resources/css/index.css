@@ -82,10 +82,7 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation : portrait)
 {
-    .fcontent {
-        display:none;
-    }
-    body {
+     body {
         font-size: 16px;
     }
 
@@ -133,7 +130,7 @@ and (orientation : portrait)
 
     .contact {
         background-color: #251549 !important;
-        color: white;
+        color: white!important;
     }
 
     .info-title {
@@ -155,9 +152,7 @@ and (orientation : portrait) {
         font-size: 16px;
     }
 
-    .fcontent {
-        display:none;
-    }
+
     .categorie {
         border: 2px solid white;
         display: inline-block;
@@ -209,7 +204,7 @@ and (orientation : portrait) {
 
     .contact {
         background-color: #251549 !important;
-        color: white;
+        color: white!important;
     }
 
 }
