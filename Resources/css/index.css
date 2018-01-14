@@ -86,4 +86,17 @@ and (orientation : portrait) {
         background-color: #c3c3c3;
     }
 
+    .category-title {
+        display: block;
+        /*line-height: 105.56%;*/
+        color: #474d50;
+        font-size: 60px;
+
+    }
+
+    .category-desktop-contain {
+        display: none;
+
+    }
+
 }
