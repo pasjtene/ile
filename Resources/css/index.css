@@ -131,6 +131,7 @@ and (orientation : portrait)
     .contact {
         background-color: #251549 !important;
         color: white!important;
+        font-size: 40px!important;
     }
 
     .info-title {
@@ -205,6 +206,7 @@ and (orientation : portrait) {
     .contact {
         background-color: #251549 !important;
         color: white!important;
+        font-size: 40px!important;
     }
 
 }

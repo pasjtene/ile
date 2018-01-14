@@ -351,6 +351,7 @@ require 'navbar.html';
             </div>
             <div class="information contact">
                 <div class="info-title"><h3><a href="#">CONTACT ET INSCRIPTION</a></h3></div>
+
                 Nous sommes Situé à Bonamoussadi, En face du centre des impôts de Douala 5ieme<br>
                 Tel/WhatsApp : 678 91 46 12 / 675 12 64 34 / 691 50 25 62 <br>
                 Email : ctidouala@cti-cm.com<br>
