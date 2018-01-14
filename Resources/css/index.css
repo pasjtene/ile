@@ -82,7 +82,9 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation : portrait)
 {
-
+    .fcontent {
+        display:none;
+    }
     body {
         font-size: 16px;
     }
@@ -151,6 +153,10 @@ and (orientation : portrait) {
 
     body {
         font-size: 16px;
+    }
+
+    .fcontent {
+        display:none;
     }
     .categorie {
         border: 2px solid white;

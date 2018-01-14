@@ -76,11 +76,16 @@ $(document).ready(function(){
         console.log("This is a mobile phone:++ ");
     }
 
+    /*
     $(window).on("resize", function (e) {
         checkScreenSize();
     });
+*/
+    //checkScreenSize();
 
-    checkScreenSize();
+    $(".ftitle1").click(function(){
+        $(".fcontent").slideToggle();
+    });
 
     function checkScreenSize(){
         var newWindowWidth = $(document).width();
