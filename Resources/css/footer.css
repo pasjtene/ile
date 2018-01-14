@@ -189,7 +189,7 @@ and (orientation : portrait) {
     }
     .fcontent {
         display:none;
-        font-size: 35px!important;
+        font-size: 45px!important;
     }
 
 
@@ -217,7 +217,7 @@ and (orientation : portrait) {
 
     .fcontent {
         display:none;
-        font-size: 35px!important;
+        font-size: 45px!important;
     }
 
 }
