@@ -339,8 +339,9 @@ require 'navbar.html';
             N’hésitez pas à nous contacter si vous souhaitez suivre une formation à la carte dans un de nos domaines de compétence.
         </div>
     </div>
+        <h3>INFORMATIONS</h3>
         <div class="info-container">
-            <h3>INFORMATIONS</h3>
+
             <div class="information">
                 <div class="info-title"><h3><a href="/ile/Views/dates.php">DATES ET TARIFS</a></h3></div>
                 Tous les cours de Douala
@@ -348,7 +349,7 @@ require 'navbar.html';
                     Prochaine rentrée : 12 Février 2018
                 </div>
             </div>
-            <div class="information">
+            <div class="information contact">
                 <div class="info-title"><h3><a href="#">CONTACT ET INSCRIPTION</a></h3></div>
                 Nous somme Situé à Bonamoussadi, En face du centre des impôts de Douala 5ieme<br>
                 Tel/WhatsApp : 678 91 46 12 / 675 12 64 34 / 691 50 25 62 <br>
