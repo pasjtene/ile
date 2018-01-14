@@ -42,6 +42,7 @@
 
 .info-container {
     display: flex;
+    justify-content: space-between;
     border: 1px solid lightgray;
 }
 
@@ -51,7 +52,7 @@
     /*background-color: #a0c814;*/
     display: table-cell;
 
-    width: 32%;
+    width: 33.3%;
     /*height: 250px;*/
     border: 1px solid white;
     padding-left: 15px;
