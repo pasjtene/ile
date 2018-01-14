@@ -290,10 +290,13 @@ require 'navbar.html';
                 Les Inscriptions sont en cour. Il y a encore quelques places disponibles.
             </div>
 
-            Le Churchill Training Institute offres des cours de langue allemande aux jeunes souhaitant étudier en Allemagne.
-            Nous préparons les candidats aux examens de langue allemande Nécessaire pour obtenir un visa étudiant
-            ( Goethe-Zertifikat A1: Start Deutsch1, Goethe-Zertifikat B1, Goethe-Zertifikat B2, Test-DaF) offerts par l’Institut-Goethe à Yaoundé.<br/>
-            <a href="/ile/Views/allemand_prepa_exam.php">plus d'informations sont disponible sur la page speciale allemand</a>
+            <div class="category-desktop-contain">
+                Le Churchill Training Institute offres des cours de langue allemande aux jeunes souhaitant étudier en Allemagne.
+                Nous préparons les candidats aux examens de langue allemande Nécessaire pour obtenir un visa étudiant
+                ( Goethe-Zertifikat A1: Start Deutsch1, Goethe-Zertifikat B1, Goethe-Zertifikat B2, Test-DaF) offerts par l’Institut-Goethe à Yaoundé.<br/>
+                <a href="/ile/Views/allemand_prepa_exam.php">plus d'informations sont disponible sur la page speciale allemand</a>
+            </div>
+
         </div>
         <div class="categorie">
             <div class="category-title">

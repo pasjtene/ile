@@ -44,7 +44,7 @@
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px)
-/*and (orientation : portrait) */
+and (orientation : portrait)
 {
 
     .categorie {
@@ -58,9 +58,14 @@ and (max-device-width : 667px)
 
     .category-title {
         display: block;
-        line-height: 105.56%;
+        /*line-height: 105.56%;*/
         color: #474d50;
         font-size: 60px;
+
+    }
+
+    .category-desktop-contain {
+        display: none;
 
     }
 
