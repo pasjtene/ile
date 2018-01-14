@@ -192,7 +192,8 @@
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px)
-and (orientation : portrait) {
+/*and (orientation : portrait) */
+{
     .left-nav {
         display:none;
     }
@@ -216,7 +217,8 @@ and (orientation : portrait) {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)
-and (orientation : portrait) {
+/*and (orientation : portrait) */
+{
     .left-nav {
         display:none;
     }
