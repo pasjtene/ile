@@ -70,6 +70,10 @@ and (max-device-width : 667px)
 and (orientation : portrait)
 {
 
+    body {
+        font-size: 16px;
+    }
+
     .categorie {
         border: 2px solid white;
         display: inline-block;
@@ -131,6 +135,9 @@ and (orientation : portrait)
 and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation : portrait) {
+    body {
+        font-size: 16px;
+    }
     .categorie {
         border: 2px solid white;
         display: inline-block;
