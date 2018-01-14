@@ -44,7 +44,8 @@
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px)
-and (orientation : portrait) {
+/*and (orientation : portrait) */
+{
 
     .categorie {
         border: 2px solid white;
@@ -53,6 +54,14 @@ and (orientation : portrait) {
         padding-left: 20px;
         padding-bottom: 10px;
         background-color: #c3c3c3;
+    }
+
+    .category-title {
+        display: block;
+        line-height: 105.56%;
+        color: #474d50;
+        font-size: 60px;
+
     }
 
 }
