@@ -211,4 +211,13 @@ and (orientation : portrait) {
 
     }
 
+    .ftitle {
+        font-size: 50px!important;
+    }
+
+    .fcontent {
+        display:none;
+        font-size: 35px!important;
+    }
+
 }
