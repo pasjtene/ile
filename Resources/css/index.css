@@ -46,6 +46,11 @@
     border: 1px solid lightgray;
 }
 
+.info-title {
+    display: block;
+    color: white;
+}
+
 .information {
     /* background-color: #ffbe00;*/
     background-color: #f16e00 ;
@@ -112,6 +117,12 @@ and (orientation : portrait)
         color: white;
     }
 
+    .info-title {
+        display: block;
+        color: white;
+        font-size: 60px;
+    }
+
 }
 
 /*iPhone 5 & 5S in portrait*/
@@ -160,6 +171,12 @@ and (orientation : portrait) {
         /*height: 250px;*/
         border: 1px solid white;
         padding-left: 15px;
+    }
+
+    .info-title {
+        display: block;
+        color: white;
+        font-size: 60px;
     }
 
     .contact {
