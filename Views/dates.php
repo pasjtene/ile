@@ -74,7 +74,9 @@ require '../navbar.html';
                 </td>
                 <td> 8 semaines </td> <td> 200 000 FCFA </td>
             </tr>
-            <tr><td class="first">INFORMATIQUE </td>
+            <tr><td class="first">INFORMATIQUE: <br>
+                    Formation bureautique Accélérée
+                </td>
                 <td> Bureautique débutant <br>
                     Initiation a l'informatique<Br>
                     Traitement de texte avec le Logiciel Microsoft Word
@@ -88,6 +90,22 @@ require '../navbar.html';
                     Lu - Ven:  18h30 - 21h00
                 </td>
                 <td> 6 semaines </td> <td> 120 000 FCFA </td>
+            </tr>
+            <tr><td class="first">
+                    INFORMATIQUE: <br>
+                    Formation bureautique normale
+                </td>
+                <td> Bureautique débutant <br>
+                    Initiation a l'informatique<Br>
+                    Traitement de texte avec le Logiciel Microsoft Word
+                </td>
+                <td> 12.02.2018 - 12.05.2018 <br><br>
+                    Jours: Lundi, Mercredi et Vendredi, ou Mardi Jeudi et Samedi<br><br>
+                    Matin: 8h30 - 11h00<br><br>
+                    Après midi: 14h00 - 16h30 <br><br>
+                    Soir: 18h30 - 21h00. (Samedi: 13-15h30).
+                </td>
+                <td> 3 mois </td> <td> 120 000 FCFA </td>
             </tr>
             </tbody>
         </table>

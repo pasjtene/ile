@@ -280,7 +280,7 @@ require 'navbar.html';
         <div class="cat-container">
         <div class="categorie">
             <div class="category-title">
-                <h3><a href="/ile/Views/allemand_prepa_exam.php">COURS D'ALLEMAND POUR ETUDIER EN ALLEMAGNE</a></h3>
+                <h3><a href="/ile/Views/allemand_prepa_exam.php">COURS D'ALLEMAND POUR ETUDE OU SEJOUR EN ALLEMAGNE</a></h3>
             </div>
             <div class="datecours">
                 Prochaine rentrée : 12 Février 2018
@@ -299,24 +299,37 @@ require 'navbar.html';
             <div class="category-title">
                 <h3><a href="/ile/Views/anglais_groupes.php">COURS D’ANGLAIS POUR TOUS</a></h3>
             </div>
-            Le Cameroun étant un pays bilingue avec l’Anglais et le français comme principales langues officielle, la maitrise de l’anglais et du français reste un atout majeur pour tous.
-            Que vous soyez éleve, étudiant, chercheur d’emplois ou même travailleurs les différents cours d’Anglais que nous dispensons au Churchill Training Institute permettrons d’améliorer ou de perfectionner vos connaissances en anglais, vous donnant ainsi un atouts supplémentaire pour votre progrès professionnel ou académique.
+            Nous dispensons des cours d’Anglais général pour tous les niveaux.<br>
+            No cours sont conçus d’après le Cadre Européen Commun de Référence pour les Langues (CECR).<br>
+            Après un test de niveau qui dure 30 minutes, l’apprenant peut être admis à un des niveaux du programme : A1, A2, B1, B2, C1, C2.<br>
+            Tous nos cours permettent de préparer les candidats aux examens internationaux : TOEFL, IELTS, TOEIC.<br><br>
+
+            Que vous soyez élève, étudiant, chercheur d’emplois ou même travailleurs les différents cours d’Anglais que nous dispensons au
+            Churchill Training Institute permettrons d’améliorer ou de perfectionner vos connaissances en anglais,
+            vous donnant ainsi un atout supplémentaire pour votre progrès professionnel ou académique.
             <br/><a href="/ile/Views/anglais_groupes.php">plus d'informations sont disponible sur la page speciale du cours d'anglais</a>
         </div>
 
 
         <div class="categorie">
             <div class="category-title">
-                <h3><a href="/ile/Views/anglais_groupes.php">COURS DE PRÉPARATION AUX EXAMENS</a></h3>
+                <h3><a href="/ile/Views/anglais_groupes.php">COURS D'INFORMATIQUE</a></h3>
             </div>
 
-            Ces cours préparent aux examens TOEFL, IELTS et TOEIC et permettent de connaître le format de l’examen.
+            CTI offre des formations de haute qualité dans plusieurs domaines de l’informatique. <br>
+            <i class="fa fa-check" aria-hidden="true" style="font-size:16px;color:#f16e00"></i>	<strong>Secrétariat bureautique:</strong> Microsoft Word, Excel,  Power point, Access. <br>
+            <i class="fa fa-check" aria-hidden="true" style="font-size:16px;color:#f16e00"></i> <strong>Infographie, Design Artistique et Média:</strong> Adobe Photoshop, illustrator, InDesign. Microsoft Publisher <br>
+            <i class="fa fa-check" aria-hidden="true" style="font-size:16px;color:#f16e00"></i>	<strong>Formation à l’utilisation de l’Internet</strong> <br>
+            <i class="fa fa-check" aria-hidden="true" style="font-size:16px;color:#f16e00"></i>	<strong>Sécurité informatique</strong> <br>
+            <i class="fa fa-check" aria-hidden="true" style="font-size:16px;color:#f16e00"></i>	<strong>Développement d’Applications Web:</strong> HTML5, CSS3, Flex Box, JavaScript, PHP, Jquery, MysQL, Symfony, Responsive Web Design
+
         </div>
         <div class="categorie">
             <div class="category-title">
                 <h3><a href="/ile/Views/anglais_groupes.php">Cours aux particuliers</a></h3>
             </div>
-            Cours basés sur des contenus particuliers, destinés à des groupes-cibles spéciaux ou pour l’exercice d’aptitudes uniques:
+            Cours basés sur des contenus particuliers, destinés à des groupes-cibles spéciaux ou pour l’exercice d’aptitudes uniques: <br><br>
+            N’hésitez pas à nous contacter si vous souhaitez suivre une formation à la carte dans un de nos domaines de compétence.
         </div>
     </div>
         <div class="info-container">
