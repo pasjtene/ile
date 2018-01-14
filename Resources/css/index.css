@@ -140,6 +140,10 @@ and (orientation : portrait)
         font-size: 60px;
     }
 
+    .titre {
+        font-size: 45px;
+    }
+
 }
 
 /*iPhone 5 & 5S in portrait*/
@@ -207,6 +211,10 @@ and (orientation : portrait) {
         background-color: #251549 !important;
         color: white!important;
         font-size: 40px!important;
+    }
+
+    .titre {
+        font-size: 45px;
     }
 
 }
