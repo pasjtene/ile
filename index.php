@@ -302,7 +302,7 @@ require 'navbar.html';
             Nous dispensons des cours d’Anglais général pour tous les niveaux.<br>
             No cours sont conçus d’après le Cadre Européen Commun de Référence pour les Langues (CECR).<br>
             Après un test de niveau qui dure 30 minutes, l’apprenant peut être admis à un des niveaux du programme : A1, A2, B1, B2, C1, C2.<br>
-            Tous nos cours permettent de préparer les candidats aux examens internationaux : TOEFL, IELTS, TOEIC.<br><br>
+            Tous nos cours permettent de préparer les candidats aux examens internationaux : <strong>TOEFL, IELTS, TOEIC</strong>.<br><br>
 
             Que vous soyez élève, étudiant, chercheur d’emplois ou même travailleurs les différents cours d’Anglais que nous dispensons au
             Churchill Training Institute permettrons d’améliorer ou de perfectionner vos connaissances en anglais,
