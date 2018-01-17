@@ -19,14 +19,22 @@ require '../navbar.html';
 
     <div class="allemand-contain">
         <div class="couleur_fond">
-            <img class="float_img img_allem_jeunes"  src="../Resources/img/allemand-jeunes.jpg"><h1 class="pad"> PREPARATION AU GOETHE-ZERTIFIKAT</h1>
-            <div class="pad justif_text">
-                Le Churchill Training Institute offres des cours de langue allemande aux jeunes souhaitant étudier en Allemagne.
-                Nous préparons les candidats aux examens de langue allemande Nécessaires pour obtenir un visa étudiant ( Goethe-Zertifikat A1: Start Deutsch1, Goethe-Zertifikat B1, Goethe-Zertifikat B2, Test-DaF) offerts par l’Institut-Goethe à Yaoundé.
-                Vous abordez les différents modules écrits et oraux de l’examen grâce à des exercices et vous êtes familiarisé(e)
-                aux techniques spécifiques d’examens.
+            <img class="float_img img_allem_jeunes"  src="../Resources/img/allemand-jeunes.jpg">
+
+
+            <div class="allemand-top-right">
+                <h1 class="pad"> PREPARATION AU GOETHE-ZERTIFIKAT</h1>
+                <div class="pad justif_text">
+                    Le Churchill Training Institute offres des cours de langue allemande aux jeunes souhaitant étudier en Allemagne.
+                    Nous préparons les candidats aux examens de langue allemande Nécessaires pour obtenir un visa étudiant ( Goethe-Zertifikat A1: Start Deutsch1, Goethe-Zertifikat B1, Goethe-Zertifikat B2, Test-DaF) offerts par l’Institut-Goethe à Yaoundé.
+                    Vous abordez les différents modules écrits et oraux de l’examen grâce à des exercices et vous êtes familiarisé(e)
+                    aux techniques spécifiques d’examens.
+                </div>
+
+                <button class="button text_button pad" style="vertical-align:middle"><span><a href="/ile/Views/dates.php"> DATES ET TARIFS </a></span></button>
+
             </div>
-            <button class="button text_button pad" style="vertical-align:middle"><span><a href="/ile/Views/dates.php"> DATES ET TARIFS </a></span></button>
+
         </div>
         <div class="flex-container3 dessous espace_haut">
             <div class="green_div3">

@@ -15,6 +15,25 @@ body{
     height: 210px;
 }
 
+.couleur_fond{
+    background-color: #788287;
+    display: flex;
+}
+
+.allemand-top-right {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pad{
+   /* padding-left: 365px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 150px;*/
+    color: white;
+}
+
 .img_allem_jeunes{
     height: 293px;
     width: 500px;
@@ -317,11 +336,7 @@ footer{
 .float_img{
     float: left;
 }
-.pad{
-    padding-left: 200px;
-    margin-left: 150px;
-    color: white;
-}
+
 .justif_text{
     text-align: justify;
 }
@@ -409,4 +424,29 @@ footer{
 }
 .espace_haut{
     margin-top: 20px;
+}
+
+/*iPhone 6 in portrait*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+    /*and (orientation : portrait) */
+{
+    .couleur_fond{
+        flex-direction: column;
+    }
+
+}
+
+/*iPhone 5 & 5S in portrait*/
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+    /*and (orientation : portrait) */
+{
+    .couleur_fond{
+        flex-direction: column;
+    }
+
 }
