@@ -34,10 +34,7 @@ body{
     color: white;
 }
 
-.img_allem_jeunes{
-    height: 293px;
-    width: 500px;
-}
+
 .div1{
     background-color: #251549;
     height: 150px;
@@ -419,9 +416,7 @@ footer{
     margin-top: 200px;
 }
 
-.img_allem_jeunes{
-    height: 200px;
-}
+
 .espace_haut{
     margin-top: 20px;
 }
@@ -436,6 +431,10 @@ and (max-device-width : 667px)
         flex-direction: column;
     }
 
+    .allemand-contain {
+        width: 100%;
+    }
+
 }
 
 /*iPhone 5 & 5S in portrait*/
@@ -447,6 +446,10 @@ and (max-device-width : 568px)
 {
     .couleur_fond{
         flex-direction: column;
+    }
+
+    .allemand-contain {
+        width: 100%;
     }
 
 }
