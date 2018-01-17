@@ -3,7 +3,8 @@
 <head>
 
     <?php require "../header.html" ?>
-    <title>Admission</title>
+    <title>CTI - Churchill Training Institute - Cours d'allemand a Douala</title>
+
 </head>
 <body id="ancre1">
 <?php
@@ -11,37 +12,21 @@ require '../navbar.html';
 ?>
 
 <div class="div2">
-    <div class="text_div2">COURS DE PRÉPARATION AUX EXAMENS</div>
+    <div class="text_div2">COURS DE PRÉPARATION AUX EXAMENS D'ALLEMAND</div>
     <div class="text2_div2"><a class="lien_div2" href="">ACCUEIL</a>><a class="lien_div2" href="">CANDIDATURE</a>> <span class="text_maj">CANDIDATURE A YAOUNDE</span></div>
 </div>
-<div class="flex-container">
-    <div>
-        <div class="border_top_and_bottom"><h3>LANGUE ALLEMANDE</h3></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Allemand</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">au Cameroun</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Allemand pour adultes</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours d'Allemand pour enfants et jeunes</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours de préparation aux examens</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Cours spécialisés</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Dates et tarifs</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Contacts et inscription</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">en Allemagne</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">apprendre l'allemand en ligne</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Examens d'Allemand</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Pratiquer l'allemand gratuitement</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Notre engagement pour l'allemand</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">pourquoi apprendre l'Allemand</a></div>
-        <div><a class="liens_footer2 border_top_and_bottom" href="">Magazin Sprache</a></div>
-    </div>
-    <div>
+<div class="flex-contain">
+
+    <div class="allemand-contain">
         <div class="couleur_fond">
-            <img class="float_img img_allem_jeunes"  src="../Resources/img/allemand-jeunes.jpg"><h1 class="pad"> CERTIFICAT ILE</h1>
+            <img class="float_img img_allem_jeunes"  src="../Resources/img/allemand-jeunes.jpg"><h1 class="pad"> PREPARATION AU GOETHE-ZERTIFIKAT</h1>
             <div class="pad justif_text">
-                Ces cours préparent de façon ciblée aux certificats du ILE-Institut, reconnus au niveau international.
+                Le Churchill Training Institute offres des cours de langue allemande aux jeunes souhaitant étudier en Allemagne.
+                Nous préparons les candidats aux examens de langue allemande Nécessaires pour obtenir un visa étudiant ( Goethe-Zertifikat A1: Start Deutsch1, Goethe-Zertifikat B1, Goethe-Zertifikat B2, Test-DaF) offerts par l’Institut-Goethe à Yaoundé.
                 Vous abordez les différents modules écrits et oraux de l’examen grâce à des exercices et vous êtes familiarisé(e)
                 aux techniques spécifiques d’examens.
             </div>
-            <button class="button text_button pad" style="vertical-align:middle"><span>DATES ET TARIFS </span></button>
+            <button class="button text_button pad" style="vertical-align:middle"><span><a href="/ile/Views/dates.php"> DATES ET TARIFS </a></span></button>
         </div>
         <div class="flex-container3 dessous espace_haut">
             <div class="green_div3">
@@ -58,14 +43,15 @@ require '../navbar.html';
             <div class="green_div4">
                 <h2>CONTACT</h2>
                 <h3>SECRETARAIT DES COURS</h3>
-                <span>Tel: +237 672106432| +237 656326389</span>
-                <span><a href="">Email: ile-cm@gmail.com</a></span>
+                <span>Tel / WhatsApp: 673 91 94 90; 695 50 48 82</span> <br>
+                <span><a href="">Email: ctidouala@cti-cm.com</a></span>
                 <hr>
-                <h2>CONTACT ET</h2>
                 <h2>INSCRIPTION</h2>
                 <P>
                     Vous êtes intéressé(e) par nos
-                    cours de langue ou avez des questions ? Nous vous renseignons volontiers.
+                    cours de langue ou avez des questions ?
+                    Retrouvez nous à notre siège à  <strong>Bonamoussadi, En face du centre des impôts de Douala 5ième.</strong>
+
                 </P>
             </div>
         </div>

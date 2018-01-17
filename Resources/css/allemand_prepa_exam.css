@@ -2,6 +2,23 @@
 body{
     background-color: #EFEEF3;
 }
+.allemand-contain {
+    display: flex;
+    width: 85%;
+
+    flex-direction: column;
+    background-color: white!important;
+}
+
+.green_div4{
+    width: 400px;
+    height: 210px;
+}
+
+.img_allem_jeunes{
+    height: 293px;
+    width: 500px;
+}
 .div1{
     background-color: #251549;
     height: 150px;

@@ -273,7 +273,7 @@ footer{
 }
 .couleur_fond{
     background-color: #788287;
-    height: 293px;
+
 }
 .flex-container>div {
     background-color: white;
@@ -374,10 +374,7 @@ footer{
     background-color: #f16e00;
     margin-bottom: 0;
 }
-.green_div4{
-    width: 300px;
-    height: 210px;
-}
+
 .ligne_hori{
     float: left;
 }
@@ -388,10 +385,7 @@ footer{
     width: 335px;
     height: 335px;
 }
-.img_allem_jeunes{
-    height: 293px;
-    width: 500px;
-}
+
 .espace_haut{
     margin-top: 20px;
 }
