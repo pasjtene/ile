@@ -72,7 +72,7 @@ require '../navbar.html';
                     <p>Mer 8h00 - 11h30</p>
                     <p>Ven 8h00 - 11h30</p>
                 </td>
-                <td> 8 semaines </td> <td> 200 000 FCFA </td>
+                <td> 8 semaines </td> <td> 190 000 FCFA </td>
             </tr>
             <tr><td class="first">INFORMATIQUE: <br>
                     Formation bureautique Accélérée
