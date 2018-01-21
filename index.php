@@ -353,8 +353,8 @@ require 'navbar.html';
                 <div class="info-title"><h3><a href="#">CONTACT ET INSCRIPTION</a></h3></div>
 
                 Nous sommes Situé à Bonamoussadi, En face du centre des impôts de Douala 5ieme<br>
-                Tel/WhatsApp : 678 91 46 12 / 675 12 64 34 / 691 50 25 62 <br>
-                Email : ctidouala@cti-cm.com<br>
+                Tel / WhatsApp: 673 91 94 90; 695 50 48 82 <br>
+                Email : info@cticamer.com<br>
 
                 <div class="titre">Horaires d'ouverture:</div>
                 <div class="sous-titre"> Cours:</div>
