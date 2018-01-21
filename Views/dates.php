@@ -53,7 +53,6 @@ require '../navbar.html';
             </tr>
             <tr><td class="first">
                     Anglais: <br>
-                    Formation Accélérée normale.
                     Intensive English Proficiency Learner(IEPL)
                 </td>
                 <td>
@@ -78,7 +77,6 @@ require '../navbar.html';
             <tr>
                 <td class="first">
                     Anglais: <br>
-                    Formation Accélérée Intensive
                     Regular English Proficiency Learner(REPL)
                 </td>
                 <td> IELTS, TOEFL, TOEIC NIVEAU A1-A2 </td>
@@ -94,7 +92,6 @@ require '../navbar.html';
             <tr>
                 <td class="first">
                     Anglais: <br>
-                    Formation Accélérée Intensive
                     Regular English Proficiency Learner Intensive(REPLI)
                 </td>
                 <td> IELTS, TOEFL, TOEIC NIVEAU A1-A2 </td>
