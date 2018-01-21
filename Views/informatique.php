@@ -17,11 +17,11 @@ require '../navbar.html';
 </div>
 
 
-<div class="page-title"><h1>DATES ET TARIFS</h1></div>
+<div class="page-title"><h1>FORMATIONS EN INFORMATIQUE</h1></div>
 
 <div class="flex-contain">
     <div class="flex1">
-        <img  src="../Resources/img/etudiants.jpg" style="width: 100%">
+        <img  src="../Resources/img/computerstudents.jpg" style="width: 100%">
 
         <div class="datecours">
             Prochaine rentrée : 12 Février 2018
@@ -38,75 +38,7 @@ require '../navbar.html';
             </tr>
             </thead>
             <tbody class="tb">
-            <tr><td class="first">Allemand: <br/>Préparation au Goethe-Zertifikat. <br>
-                    Cours d’allemand pour étudier en Allemagne.
-                </td>
-                <td> A1: Start Deutsch1 </td>
-                <td> 19 Fev. 2018
-                </td>
-                <td>Du Lundi au Vendredi:<br>
-                    8h00 - 10h30<br>
-                    14h00 - 16h30<br>
-                    18h30 - 21h00<br>
-                </td>
-                <td> 2 mois, plus sessions pratiques </td> <td> 125 000 FCFA </td>
-            </tr>
-            <tr><td class="first">
-                    Anglais: <br>
-                    Formation Accélérée normale.
-                    Intensive English Proficiency Learner(IEPL)
-                </td>
-                <td>
-                    IELTS, TOEFL, TOEIC NIVEAU A1
-                </td>
-                <td>
-                    19 Fev. 2018
-                </td>
-                <td>Du Lundi au Vendredi: <br>
-                    8h - 10h<br>
-                    14h - 16h<br>
-                    18h30 - 20h30<br>
-                </td>
-                <td>
-                    6 semaines (60h) par niveau
-                </td>
-                <td>
-                    110 000 FCFA
-                </td>
 
-            </tr>
-            <tr>
-                <td class="first">
-                    Anglais: <br>
-                    Formation Accélérée Intensive
-                    Regular English Proficiency Learner(REPL)
-                </td>
-                <td> IELTS, TOEFL, TOEIC NIVEAU A1-A2 </td>
-                <td> 19 Fev. 2018
-                </td>
-                <td>2 fois par semaine <br>
-                    8h - 10h<br>
-                    14h - 16h<br>
-                    18h30 - 20h30<br>
-                </td>
-                <td> 6 semaines par niveau</td> <td> 50 000 FCFA </td>
-            </tr>
-            <tr>
-                <td class="first">
-                    Anglais: <br>
-                    Formation Accélérée Intensive
-                    Regular English Proficiency Learner Intensive(REPLI)
-                </td>
-                <td> IELTS, TOEFL, TOEIC NIVEAU A1-A2 </td>
-                <td> 19 Fev. 2018
-                </td>
-                <td>3 fois par semaine <br>
-                    8h - 10h<br>
-                    14h - 16h<br>
-                    18h30 - 20h30<br>
-                </td>
-                <td> 6 semaines par niveau</td> <td> 65 000 FCFA </td>
-            </tr>
             <tr><td class="first">INFORMATIQUE: <br>
                     Logiciels Bureautique essentiel (LBE)
                 </td>

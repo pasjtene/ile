@@ -52,7 +52,7 @@ require '../navbar.html';
                 <h2>CONTACT</h2>
                 <h3>SECRETARAIT DES COURS</h3>
                 <span>Tel / WhatsApp: 673 91 94 90; 695 50 48 82</span> <br>
-                <span><a href="">Email: ctidouala@cti-cm.com</a></span>
+                <span>Email: info@cticamer.com</span>
                 <hr>
                 <h2>INSCRIPTION</h2>
                 <P>

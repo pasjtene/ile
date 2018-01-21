@@ -283,7 +283,7 @@ require 'navbar.html';
                 <h3><a href="/ile/Views/allemand_prepa_exam.php">COURS D'ALLEMAND POUR ETUDE OU SEJOUR EN ALLEMAGNE</a></h3>
             </div>
             <div class="datecours">
-                Prochaine rentrée : 12 Février 2018
+                Prochaine rentrée : 19 Février 2018
             </div>
 
             <div class="annonce-inscription">
@@ -346,13 +346,13 @@ require 'navbar.html';
                 <div class="info-title"><h3><a href="/ile/Views/dates.php">DATES ET TARIFS</a></h3></div>
                 Tous les cours de Douala
                 <div class="datecours">
-                    Prochaine rentrée : 12 Février 2018
+                    Prochaine rentrée : 19 Février 2018
                 </div>
             </div>
             <div class="information contact">
                 <div class="info-title"><h3><a href="#">CONTACT ET INSCRIPTION</a></h3></div>
 
-                Nous sommes Situé à Bonamoussadi, En face du centre des impôts de Douala 5ieme<br>
+                Nous sommes Situé à Bonamoussadi, à l’entrée du centre des impôts de douala 5ème<br>
                 Tel / WhatsApp: 673 91 94 90; 695 50 48 82 <br>
                 Email : info@cticamer.com<br>
 
